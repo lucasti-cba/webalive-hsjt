@@ -50,3 +50,9 @@
 [2021-09-29 17:58:58.673] [remoteagent] [info] [127.0.0.1][9ba7b6ad][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
 [2021-09-29 17:58:59.701] [remoteagent] [info] [127.0.0.1][f4d49955][ExtensionHostConnection] <26741> Extension Host Process exited with code: 0, signal: null.
 [2021-09-29 18:06:31.097] [remoteagent] [info] [127.0.0.1][62151c15][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-09-29 21:06:21.392] [remoteagent] [info] [127.0.0.1][6355fafd][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-09-29 21:06:31.098] [remoteagent] [info] [127.0.0.1][62151c15][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2021-09-30 00:06:15.507] [remoteagent] [info] [127.0.0.1][85106ef9][ExtensionHostConnection] <28379> Extension Host Process exited with code: 0, signal: null.
+[2021-09-30 00:06:15.508] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-09-30 00:06:21.393] [remoteagent] [info] [127.0.0.1][6355fafd][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2021-09-30 00:11:15.510] [remoteagent] [info] Last EH closed, shutting down

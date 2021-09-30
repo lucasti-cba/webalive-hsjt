@@ -1,0 +1,35 @@
+Validating found git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/webalive
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s e60d0d74d99fd631b2b31f4f45eca343e033aca1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/template/workhome.html
+> git ls-files --stage -- /home/webalive/myproject/template/workhome.html
+> git show --textconv :myproject/auth/urls.py
+> git ls-files --stage -- /home/webalive/myproject/auth/urls.py
+> git cat-file -s 814548949d1a4f757cb7b933d52e42cc97132154
+> git show --textconv :myproject/template/workhome.html
+> git ls-files --stage -- /home/webalive/myproject/template/workhome.html
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/template/workhome.html
+> git ls-files --stage -- /home/webalive/myproject/template/workhome.html

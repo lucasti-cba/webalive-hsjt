@@ -26,3 +26,11 @@
 	at /home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:396926
 	at async g.provideHover (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:166317)
 [2021-09-29 20:34:51.354] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2095
+[2021-09-29 20:35:01.051] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2095
+[2021-09-29 20:35:55.023] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2095
+[2021-09-29 20:39:10.945] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2095
+[2021-09-29 20:39:52.152] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2095
+[2021-09-29 20:39:55.191] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2095
+[2021-09-30 00:06:14.463] [exthost] [info] extension host terminating: renderer disconnected for too long (1)
+[2021-09-30 00:06:14.464] [exthost] [info] Lock '/home/webalive/.vscode-server/data/User/workspaceStorage/665c1a26ae1857a3f9edab11f0c451ee/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-09-30 00:06:15.497] [exthost] [info] exiting with code 0
