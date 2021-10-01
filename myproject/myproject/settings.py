@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
+    'perfil'
+  
+   
     
 ]
 
@@ -137,3 +139,5 @@ MEDIA_ROOT = (
   os.path.join(BASE_DIR, 'media') #pasta media para abrigar os arquivos dos usuários
 )
 MEDIA_URL = '/media/' #endereço para acessar os arquivos
+
+

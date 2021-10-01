@@ -1,0 +1,341 @@
+Validating found git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/webalive
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :myproject/auth/forms.py
+> git ls-files --stage -- /home/webalive/myproject/auth/forms.py
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/forms.py
+> git ls-files --stage -- /home/webalive/myproject/auth/forms.py
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/forms.py
+> git ls-files --stage -- /home/webalive/myproject/auth/forms.py
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/forms.py
+> git ls-files --stage -- /home/webalive/myproject/auth/forms.py
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/forms.py
+> git ls-files --stage -- /home/webalive/myproject/auth/forms.py
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/forms.py
+> git ls-files --stage -- /home/webalive/myproject/auth/forms.py
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/template/newUser.html
+> git ls-files --stage -- /home/webalive/myproject/template/newUser.html
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/auth/urls.py
+> git ls-files --stage -- /home/webalive/myproject/auth/urls.py
+> git cat-file -s d7d3228f5209569477110329e3dbb1de7f80c5b7
+> git show --textconv :myproject/template/newUser.html
+> git ls-files --stage -- /home/webalive/myproject/template/newUser.html
+> git show --textconv :myproject/auth/urls.py
+> git ls-files --stage -- /home/webalive/myproject/auth/urls.py
+> git cat-file -s d7d3228f5209569477110329e3dbb1de7f80c5b7
+> git show --textconv :myproject/template/newUser.html
+> git ls-files --stage -- /home/webalive/myproject/template/newUser.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/webalive/myproject/template/newUser.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n41 -- /home/webalive/myproject/template/newUser.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/webalive/myproject/auth/forms.py
+> git show --textconv :myproject/auth/forms.py
+> git ls-files --stage -- /home/webalive/myproject/auth/forms.py
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/forms.py
+> git ls-files --stage -- /home/webalive/myproject/auth/forms.py
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/urls.py
+> git ls-files --stage -- /home/webalive/myproject/auth/urls.py
+> git cat-file -s d7d3228f5209569477110329e3dbb1de7f80c5b7
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/apps.py
+> git ls-files --stage -- /home/webalive/myproject/auth/apps.py
+> git cat-file -s 836fe02b537c14c10830ef2bce615f9fcc73b085
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/myproject/settings.py
+> git ls-files --stage -- /home/webalive/myproject/myproject/settings.py
+> git cat-file -s b268aa70d1dfc4e2d846d4d8191833cc55e2b82a
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/models.py
+> git ls-files --stage -- /home/webalive/myproject/auth/models.py
+> git cat-file -s 3a8bc35d0c69105e1405dd68f5d793383aa5aac7
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/checkin/models.py
+> git ls-files --stage -- /home/webalive/myproject/checkin/models.py
+> git cat-file -s 71a836239075aa6e6e4ecb700e9c42c95c022d91
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/perfil/views.py
+> git ls-files --stage -- /home/webalive/myproject/perfil/views.py
+> git show --textconv :myproject/perfil/models.py
+> git ls-files --stage -- /home/webalive/myproject/perfil/models.py
+> git show --textconv :myproject/auth/models.py
+> git ls-files --stage -- /home/webalive/myproject/auth/models.py
+> git cat-file -s 3a8bc35d0c69105e1405dd68f5d793383aa5aac7
+> git show --textconv :myproject/perfil/models.py
+> git ls-files --stage -- /home/webalive/myproject/perfil/models.py
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/checkin/models.py
+> git ls-files --stage -- /home/webalive/myproject/checkin/models.py
+> git cat-file -s 71a836239075aa6e6e4ecb700e9c42c95c022d91
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/perfil/views.py
+> git ls-files --stage -- /home/webalive/myproject/perfil/views.py
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/perfil/models.py
+> git ls-files --stage -- /home/webalive/myproject/perfil/models.py
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/forms.py
+> git ls-files --stage -- /home/webalive/myproject/auth/forms.py
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/myproject/settings.py
+> git ls-files --stage -- /home/webalive/myproject/myproject/settings.py
+> git cat-file -s b268aa70d1dfc4e2d846d4d8191833cc55e2b82a
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/perfil/models.py
+> git ls-files --stage -- /home/webalive/myproject/perfil/models.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/webalive/myproject/perfil/models.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n41 -- /home/webalive/myproject/perfil/models.py
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/forms.py
+> git ls-files --stage -- /home/webalive/myproject/auth/forms.py
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/webalive/myproject/template/newUser.html
+> git show --textconv :myproject/template/newUser.html
+> git ls-files --stage -- /home/webalive/myproject/template/newUser.html
+> git show --textconv :myproject/myproject/settings.py
+> git ls-files --stage -- /home/webalive/myproject/myproject/settings.py
+> git cat-file -s b268aa70d1dfc4e2d846d4d8191833cc55e2b82a
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/forms.py
+> git ls-files --stage -- /home/webalive/myproject/auth/forms.py
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/webalive/myproject/auth/views.py
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/myproject/settings.py
+> git ls-files --stage -- /home/webalive/myproject/myproject/settings.py
+> git cat-file -s b268aa70d1dfc4e2d846d4d8191833cc55e2b82a
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/myproject/settings.py
+> git ls-files --stage -- /home/webalive/myproject/myproject/settings.py
+> git cat-file -s b268aa70d1dfc4e2d846d4d8191833cc55e2b82a
+> git show --textconv :myproject/myproject/settings.py
+> git ls-files --stage -- /home/webalive/myproject/myproject/settings.py
+> git cat-file -s b268aa70d1dfc4e2d846d4d8191833cc55e2b82a
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/webalive/myproject/myproject/settings.py
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/webalive/myproject/perfil/models.py
+> git show --textconv :myproject/perfil/models.py
+> git ls-files --stage -- /home/webalive/myproject/perfil/models.py
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/template/newUser.html
+> git ls-files --stage -- /home/webalive/myproject/template/newUser.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/webalive/myproject/auth/views.py
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/webalive/myproject/perfil/models.py
+> git show --textconv :myproject/perfil/models.py
+> git ls-files --stage -- /home/webalive/myproject/perfil/models.py
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/myproject/settings.py
+> git ls-files --stage -- /home/webalive/myproject/myproject/settings.py
+> git cat-file -s b268aa70d1dfc4e2d846d4d8191833cc55e2b82a
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git show --textconv :myproject/perfil/admin.py
+> git ls-files --stage -- /home/webalive/myproject/perfil/admin.py
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/webalive/myproject/perfil/models.py
+> git show --textconv :myproject/myproject/settings.py
+> git ls-files --stage -- /home/webalive/myproject/myproject/settings.py
+> git cat-file -s b268aa70d1dfc4e2d846d4d8191833cc55e2b82a
+> git show --textconv :myproject/myproject/settings.py
+> git ls-files --stage -- /home/webalive/myproject/myproject/settings.py
+> git cat-file -s b268aa70d1dfc4e2d846d4d8191833cc55e2b82a
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/webalive/myproject/perfil/models.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n41 -- /home/webalive/myproject/perfil/models.py
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/perfil/admin.py
+> git ls-files --stage -- /home/webalive/myproject/perfil/admin.py
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 7b3180903fbaa1861cfb4a152a5f10cd63b888cc
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git check-ignore -v -z --stdin
+> git add -A -- .

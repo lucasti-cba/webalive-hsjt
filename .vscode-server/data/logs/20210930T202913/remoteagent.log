@@ -13,3 +13,8 @@
 [2021-09-30 20:29:13.201] [remoteagent] [info] [127.0.0.1][827ee7c6][ManagementConnection] New connection established.
 [2021-09-30 20:29:13.207] [remoteagent] [info] [127.0.0.1][e4950b38][ExtensionHostConnection] <38859> Launched Extension Host Process.
 [2021-09-30 20:29:17.882] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-09-30 20:52:33.238] [remoteagent] [info] [127.0.0.1][827ee7c6][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-09-30 23:52:27.663] [remoteagent] [info] [127.0.0.1][e4950b38][ExtensionHostConnection] <38859> Extension Host Process exited with code: 0, signal: null.
+[2021-09-30 23:52:27.664] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-09-30 23:52:33.239] [remoteagent] [info] [127.0.0.1][827ee7c6][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2021-09-30 23:57:27.666] [remoteagent] [info] Last EH closed, shutting down

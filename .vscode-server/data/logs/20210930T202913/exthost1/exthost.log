@@ -22,3 +22,15 @@
 [2021-09-30 20:33:59.816] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3853
 [2021-09-30 20:36:57.769] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 3854
 [2021-09-30 20:37:00.416] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1773
+[2021-09-30 20:37:16.094] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1773
+[2021-09-30 20:37:18.197] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1773
+[2021-09-30 20:38:04.001] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1773
+[2021-09-30 20:45:57.317] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2021-09-30 20:45:57.317] [exthost] [error] Canceled: Canceled
+	at T.makeCancelError (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:436860)
+	at T.handleFailedRequest (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:436711)
+	at /home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:396926
+	at async g.provideHover (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:166317)
+[2021-09-30 23:52:26.633] [exthost] [info] extension host terminating: renderer disconnected for too long (1)
+[2021-09-30 23:52:26.634] [exthost] [info] Lock '/home/webalive/.vscode-server/data/User/workspaceStorage/665c1a26ae1857a3f9edab11f0c451ee/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-09-30 23:52:27.653] [exthost] [info] exiting with code 0

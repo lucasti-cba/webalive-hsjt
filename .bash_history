@@ -200,3 +200,26 @@ ls
 cd myproject/
 ls
 sudo systemctl restart gunicorn
+ls
+cd myproject/
+ls
+cd myprojectenv/
+cd bin
+source activate
+cd ..
+ls
+python3 manage.py startapp checkin-entrada
+python3 manage.py startapp checkin
+ls
+git config --get-all user.name
+git config --global user.name "lucasti-cba"
+git config --global user.email "lucasti-cba@outlook.com"
+ls
+cd ..
+çs
+ls
+git init
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/lucasti-cba/webapp-hsjt.git
+git push -u origin main

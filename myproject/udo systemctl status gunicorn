@@ -1,0 +1,22 @@
+[0;1;32m●[0m gunicorn.service - gunicorn daemon
+     Loaded: loaded (/etc/systemd/system/gunicorn.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Fri 2021-10-01 17:56:17 UTC; 3min 32s ago
+   Main PID: 48546 (gunicorn)
+      Tasks: 4 (limit: 6851)
+     Memory: 97.3M
+     CGroup: /system.slice/gunicorn.service
+             ├─48546 /home/webalive/myproject/myprojectenv/bin/python /home/webalive/myproject/myprojectenv/bin/gunicorn --access-logfile - --workers 3 --bind unix:/home/webalive/myproject/myproject.sock myproject.wsgi:application
+             ├─48559 /home/webalive/myproject/myprojectenv/bin/python /home/webalive/myproject/myprojectenv/bin/gunicorn --access-logfile - --workers 3 --bind unix:/home/webalive/myproject/myproject.sock myproject.wsgi:application
+             ├─48560 /home/webalive/myproject/myprojectenv/bin/python /home/webalive/myproject/myprojectenv/bin/gunicorn --access-logfile - --workers 3 --bind unix:/home/webalive/myproject/myproject.sock myproject.wsgi:application
+             └─48561 /home/webalive/myproject/myprojectenv/bin/python /home/webalive/myproject/myprojectenv/bin/gunicorn --access-logfile - --workers 3 --bind unix:/home/webalive/myproject/myproject.sock myproject.wsgi:application
+
+Oct 01 17:56:17 srv-webapp gunicorn[48546]: [2021-10-01 17:56:17 +0000] [48546] [INFO] Starting gunicorn 20.1.0
+Oct 01 17:56:17 srv-webapp gunicorn[48546]: [2021-10-01 17:56:17 +0000] [48546] [INFO] Listening at: unix:/home/webalive/myproject/myproject.sock (48546)
+Oct 01 17:56:17 srv-webapp gunicorn[48546]: [2021-10-01 17:56:17 +0000] [48546] [INFO] Using worker: sync
+Oct 01 17:56:17 srv-webapp gunicorn[48559]: [2021-10-01 17:56:17 +0000] [48559] [INFO] Booting worker with pid: 48559
+Oct 01 17:56:17 srv-webapp gunicorn[48560]: [2021-10-01 17:56:17 +0000] [48560] [INFO] Booting worker with pid: 48560
+Oct 01 17:56:17 srv-webapp gunicorn[48561]: [2021-10-01 17:56:17 +0000] [48561] [INFO] Booting worker with pid: 48561
+Oct 01 17:56:28 srv-webapp gunicorn[48559]:  - - [01/Oct/2021:17:56:28 +0000] "POST /newUser/ HTTP/1.0" 200 33356 "http://app.hsjtmt.com.br/newUser/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+Oct 01 17:56:43 srv-webapp gunicorn[48559]:  - - [01/Oct/2021:17:56:43 +0000] "POST /newUser/ HTTP/1.0" 200 33356 "http://app.hsjtmt.com.br/newUser/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+Oct 01 17:56:47 srv-webapp gunicorn[48559]:  - - [01/Oct/2021:17:56:47 +0000] "GET /admin/auth/user/ HTTP/1.0" 200 8429 "http://app.hsjtmt.com.br/admin/auth/user/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+Oct 01 17:56:47 srv-webapp gunicorn[48559]:  - - [01/Oct/2021:17:56:47 +0000] "GET /admin/jsi18n/ HTTP/1.0" 200 8483 "http://app.hsjtmt.com.br/admin/auth/user/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
