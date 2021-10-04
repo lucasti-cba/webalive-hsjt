@@ -223,3 +223,46 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/lucasti-cba/webapp-hsjt.git
 git push -u origin main
+sudo systemctl restart gunicorn
+ls
+cd myproject/
+ls
+source myprojectenv/bin/activate
+python3 manage.py makemigrations auth
+sudo systemctl restart gunicorn
+python3 manage.py startapp perfil
+sudo systemctl restart gunicorn
+python3 manage.py makemigrations
+pip3 install Pillow
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py makemigrations
+sudo systemctl restart gunicorn
+sudo systemctl status gunicorn.socket
+file /run/gunicorn.sock
+sudo journalctl -u gunicorn.socket
+sudo systemctl status gunicorn
+cd ..
+ls
+cd ..
+ls
+cd /home/webalive/myproject/myprojectenv/bin/gunicorn
+cd /home/webalive/myproject/myprojectenv/bin/
+ls
+nano gunicorn
+sudo systemctl status gunicorn
+sudo journalctl -u gunicorn
+sudo systemctl status gunicorn
+c d ..
+cd ..
+ls
+python3 manage.py runserver 0.0.0.0:8000
+sudo systemctl restart gunicorn
+python3 manage.py runserver 0.0.0.0:8000
+sudo systemctl restart gunicorn
+python3 manage.py runserver 0.0.0.0:8000
+sudo systemctl restart gunicorn
+python3 manage.py makemigrations
+python3 manage.py migrate
+sudo systemctl restart gunicorn
+git push

@@ -339,3 +339,40 @@ Open repository: /home/webalive
 > git ls-files --stage -- /home/webalive/myproject/template/base.html
 > git check-ignore -v -z --stdin
 > git add -A -- .
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/webalive/myproject/perfil/models.py
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git cat-file -s 55947df8012b2e5d12c805cf5ce469bd3d4d9d61
+> git cat-file -s 083ba45508911307061a8203e200edfd0318dcf4
+> git show --textconv :myproject/perfil/models.py
+> git show --textconv :myproject/template/base.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/webalive/myproject/perfil/models.py
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git cat-file -s 55947df8012b2e5d12c805cf5ce469bd3d4d9d61
+> git cat-file -s 083ba45508911307061a8203e200edfd0318dcf4
+> git show --textconv :myproject/perfil/models.py
+> git show --textconv :myproject/template/base.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

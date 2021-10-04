@@ -29,3 +29,8 @@
 [2021-10-01 17:13:17.961] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
 [2021-10-01 17:18:13.538] [remoteagent] [info] [127.0.0.1][30f4b9f6][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
 [2021-10-01 17:18:14.571] [remoteagent] [info] [127.0.0.1][f4eb07d9][ExtensionHostConnection] <46359> Extension Host Process exited with code: 0, signal: null.
+[2021-10-01 21:06:45.826] [remoteagent] [info] [127.0.0.1][98a317a0][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-10-02 00:06:40.396] [remoteagent] [info] [127.0.0.1][05335e13][ExtensionHostConnection] <47144> Extension Host Process exited with code: 0, signal: null.
+[2021-10-02 00:06:40.396] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-10-02 00:06:45.826] [remoteagent] [info] [127.0.0.1][98a317a0][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2021-10-02 00:11:40.398] [remoteagent] [info] Last EH closed, shutting down

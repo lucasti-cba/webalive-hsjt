@@ -1,0 +1,49 @@
+[2021-10-04 13:28:52.594] [exthost] [info] extension host started
+[2021-10-04 13:28:52.595] [exthost] [error] Error: EEXIST: file already exists, open '/home/webalive/.vscode-server/data/User/workspaceStorage/665c1a26ae1857a3f9edab11f0c451ee/vscode.lock'
+[2021-10-04 13:28:52.601] [exthost] [info] Lock '/home/webalive/.vscode-server/data/User/workspaceStorage/665c1a26ae1857a3f9edab11f0c451ee/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2021-10-04 13:28:52.606] [exthost] [info] Lock '/home/webalive/.vscode-server/data/User/workspaceStorage/665c1a26ae1857a3f9edab11f0c451ee/vscode.lock': The lock does not look stale, elapsed: 314 ms, giving up.
+[2021-10-04 13:28:52.607] [exthost] [info] Lock '/home/webalive/.vscode-server/data/User/workspaceStorage/665c1a26ae1857a3f9edab11f0c451ee-1/vscode.lock': Lock acquired.
+[2021-10-04 13:28:52.740] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-10-04 13:28:52.741] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/debug-auto-launch/dist/extension
+[2021-10-04 13:28:52.749] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-10-04 13:28:52.749] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/git/dist/main
+[2021-10-04 13:28:53.308] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-10-04 13:28:53.309] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/github/dist/extension.js
+[2021-10-04 13:28:53.440] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-10-04 13:28:53.440] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/emmet/dist/node/emmetNodeMain
+[2021-10-04 13:28:53.469] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-10-04 13:28:53.469] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/merge-conflict/dist/mergeConflictMain
+[2021-10-04 13:28:53.477] [exthost] [info] eager extensions activated
+[2021-10-04 13:28:53.515] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-10-04 13:28:53.516] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/ms-vscode.js-debug/src/extension.js
+[2021-10-04 13:46:59.725] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2021-10-04 13:46:59.726] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/html-language-features/client/dist/node/htmlClientMain
+[2021-10-04 19:08:02.526] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-10-04 19:08:02.529] [exthost] [error] TypeError: Cannot read property 'find' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/emmet/dist/node/emmetNodeMain.js:1:178890)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/emmet/dist/node/emmetNodeMain.js:1:177342)
+	at $.provideCompletionItems (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:176938)
+	at /home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:197582
+	at xe._withAdapter (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:187656)
+	at xe.$provideCompletionItems (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:197558)
+	at i._doInvokeHandler (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:98:13543)
+	at i._invokeHandler (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:98:13227)
+	at i._receiveRequest (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:98:11838)
+	at i._receiveOneMessage (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:98:10567)
+	at /home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:98:8663
+	at c.fire (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at l.fire (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:74:15781)
+	at /home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:113:30187
+	at c.fire (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at l.fire (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:74:15781)
+	at r._receiveMessage (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:74:21051)
+	at /home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:74:20149
+	at c.fire (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at v.acceptChunk (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:74:13142)
+	at /home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:74:12490
+	at c.fire (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:113:19277
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:586:8)

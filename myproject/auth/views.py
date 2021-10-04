@@ -17,7 +17,7 @@ from  perfil.models import *
 from django.contrib.auth.models import Group
 
 def get_perfil(user):
-    perfil = get_object_or_404(User, id = user)
+    perfil = get_object_or_404(Perfil, user = user)
     return perfil
 # Create your views here.
 def index(request):
@@ -36,12 +36,13 @@ def index(request):
     return render(request, 'login.html')
 
 def workhome(request):
-    perfil = get_perfil(request.user.id)
-    return render(request, 'workhome.html', {'perfil': perfil })
+
+    return render(request, 'workhome.html', {'perfil': get_perfil(request.user.id) })
 
 def criar_user(request):
+
     user = request.user
-    perfil = get_object_or_404(Perfil, user = user.id)
+
     form = NovoCadastro_User()
     if request.method == "POST":
         form = NovoCadastro_User(request.POST, request.FILES)   
@@ -64,16 +65,16 @@ def criar_user(request):
             perfil.foto.add(imagens)
             print(permissoes)
             if permissoes == '0':
-                print('0')
                 group = Group.objects.get(name='Admin')
-                print(group)
                 userC.groups.add(group)
             if permissoes == '1':
-                userC.groups.add('gerencia')
+                group = Group.objects.get(name='Gerencia')
+                userC.groups.add(group)
             if permissoes == '2':
-                userC.groups.add('portaria')
+                group = Group.objects.get(name='Portaria')
+                userC.groups.add(group)
             userC.save()
             return redirect('workhome')
 
 
-    return render(request, 'newUser.html', { 'form': form ,'perfil': perfil })
+    return render(request, 'newUser.html', { 'form': form ,'perfil': get_perfil(request.user.id)})
