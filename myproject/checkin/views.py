@@ -16,19 +16,34 @@ from django import template
 from  perfil.models import *
 from django.contrib.auth.models import Group
 
+register = Library()
 # Funções Reutilizaveis 
 def get_perfil(user):
     perfil = get_object_or_404(Perfil, user = user)
     return perfil
 # Create your views here.
 
-
+@login_required(redirect_field_name='index')
 def cadastro_visitante(request):
+    form = NovoCadastro_Visitante()
+    if request.method == "POST":
+        form = NovoCadastro_Visitante(request.POST, request.FILES)   
+        if form.is_valid():           
+            nome =  form.cleaned_data['nome']
+            foto = form.cleaned_data['foto']
+            imagens = Imagem(imagens=foto) 
+            imagens.save()
+            visitante = Visitante(Nome = nome)
+            visitante.save()
+            visitante.foto.add(imagens)
+            visitante.save()
+            return redirect('index')
     return render(request, 'cadastro_visitante.html', { 'perfil': get_perfil(request.user.id) })
 
-
+@login_required(redirect_field_name='index')
 def visitante(request):
     return render(request, 'visitante.html', { 'perfil': get_perfil(request.user.id) })
 
+@login_required(redirect_field_name='index')
 def acompanhante(request):
     return render(request, 'acompanhante.html', { 'perfil': get_perfil(request.user.id) })

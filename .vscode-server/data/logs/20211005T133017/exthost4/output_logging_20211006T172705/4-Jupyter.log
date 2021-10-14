@@ -1,0 +1,10 @@
+User belongs to experiment group 'jupyterTest'
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+Info 2021-10-06 17:27:05: ZMQ install verified.
+Info 2021-10-06 23:21:39: Shutting down notebooks for e7678a21-ecda-48ed-8e5c-413ffbd47f0b
+Info 2021-10-06 23:21:39: Disposing HostJupyterExecution 24211c16-58e6-4703-9321-b9d8a9676edb
+Info 2021-10-06 23:21:39: Disposing super HostJupyterExecution 24211c16-58e6-4703-9321-b9d8a9676edb
+Info 2021-10-06 23:21:39: Disposing HostJupyterExecution 24211c16-58e6-4703-9321-b9d8a9676edb
+Info 2021-10-06 23:21:39: Finished disposing HostJupyterExecution  24211c16-58e6-4703-9321-b9d8a9676edb
+Info 2021-10-06 23:21:39: Cleaning up server cache 24211c16-58e6-4703-9321-b9d8a9676edb
+Info 2021-10-06 23:21:39: Finished disposing HostJupyterExecution  24211c16-58e6-4703-9321-b9d8a9676edb

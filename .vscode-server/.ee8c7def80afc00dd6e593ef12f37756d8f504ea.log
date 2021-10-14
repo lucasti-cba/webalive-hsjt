@@ -1,0 +1,52 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+Extension host agent listening on 36845
+
+[11:08:05] Extension host agent started.
+[11:08:07] [127.0.0.1][e1c6aa21][ManagementConnection] New connection established.
+[11:08:07] [127.0.0.1][a70a9f01][ExtensionHostConnection] New connection established.
+[11:08:07] [127.0.0.1][a70a9f01][ExtensionHostConnection] <56760> Launched Extension Host Process.
+[11:08:15] Installing extension: ms-python.python
+[11:08:15] Installing extension: ms-toolsai.jupyter
+[11:08:17] Installing extension: ms-toolsai.jupyter-renderers
+[11:08:22] Downloaded extension: ms-python.python /home/webalive/.vscode-server/data/CachedExtensionVSIXs/ms-python.python-2021.10.1336267007
+[11:08:23] Downloaded extension: ms-toolsai.jupyter-renderers /home/webalive/.vscode-server/data/CachedExtensionVSIXs/ms-toolsai.jupyter-renderers-1.0.3
+[11:08:32] Extracted extension to /home/webalive/.vscode-server/extensions/.1a5e4595-57d1-4bb7-848c-d556ee9019af: ms-toolsai.jupyter-renderers
+[11:08:32] Renamed to /home/webalive/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.3
+[11:08:32] Extracting completed. ms-toolsai.jupyter-renderers
+[11:08:37] Downloaded extension: ms-toolsai.jupyter /home/webalive/.vscode-server/data/CachedExtensionVSIXs/ms-toolsai.jupyter-2021.9.1001312534
+[11:08:37] [127.0.0.1][a70a9f01][ExtensionHostConnection] The client has reconnected.
+[11:08:46] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[11:08:58] [127.0.0.1][a70a9f01][ExtensionHostConnection] The client has reconnected.
+[11:09:02] Extracted extension to /home/webalive/.vscode-server/extensions/.718236e4-063e-4fa7-a62d-00ff95f08650: ms-toolsai.jupyter
+[11:09:02] Renamed to /home/webalive/.vscode-server/extensions/ms-toolsai.jupyter-2021.9.1001312534
+[11:09:02] Extracting completed. ms-toolsai.jupyter
+[11:09:02] Extension installed successfully: ms-toolsai.jupyter-renderers
+[11:09:02] Extension installed successfully: ms-toolsai.jupyter
+[11:09:11] Extracted extension to /home/webalive/.vscode-server/extensions/.f0ed311b-df9e-430b-9ac3-9e68fb03566f: ms-python.python
+[11:09:11] Renamed to /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007
+[11:09:11] Extracting completed. ms-python.python
+[11:09:11] Extension installed successfully: ms-python.python
+[11:46:32] [127.0.0.1][a70a9f01][ExtensionHostConnection] The client has reconnected.
+[11:46:52] [127.0.0.1][a70a9f01][ExtensionHostConnection] The client has reconnected.
+[19:14:49] [127.0.0.1][e8b94551][ManagementConnection] New connection established.
+[19:14:49] [127.0.0.1][f90f585e][ExtensionHostConnection] New connection established.
+[19:14:49] [127.0.0.1][f90f585e][ExtensionHostConnection] <59465> Launched Extension Host Process.
+[IPC Library: Pty Host]  INFO Persistent process "3": Replaying 609 chars and 1 size events
+[19:15:16] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[19:15:23] [127.0.0.1][f90f585e][ExtensionHostConnection] The client has reconnected.
+[19:15:43] [127.0.0.1][f90f585e][ExtensionHostConnection] The client has reconnected.
+[19:16:03] [127.0.0.1][f90f585e][ExtensionHostConnection] The client has reconnected.
+[19:16:23] [127.0.0.1][f90f585e][ExtensionHostConnection] The client has reconnected.
+[19:19:52] [127.0.0.1][a70a9f01][ExtensionHostConnection] <56760> Extension Host Process exited with code: 0, signal: null.
+[19:23:35] [127.0.0.1][e1c6aa21][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/bootstrap.js:1:370)
+    at process.emit (events.js:315:20)

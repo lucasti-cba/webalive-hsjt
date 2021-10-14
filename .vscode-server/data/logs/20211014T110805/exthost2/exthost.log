@@ -1,0 +1,44 @@
+[2021-10-14 19:14:56.558] [exthost] [info] extension host started
+[2021-10-14 19:14:56.593] [exthost] [error] Error: EEXIST: file already exists, open '/home/webalive/.vscode-server/data/User/workspaceStorage/665c1a26ae1857a3f9edab11f0c451ee/vscode.lock'
+[2021-10-14 19:14:57.032] [exthost] [info] Lock '/home/webalive/.vscode-server/data/User/workspaceStorage/665c1a26ae1857a3f9edab11f0c451ee/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2021-10-14 19:14:57.185] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.vscode-pylance
+[2021-10-14 19:14:57.186] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension
+[2021-10-14 19:14:59.569] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2021-10-14 19:14:59.570] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/extensions/ms-toolsai.jupyter-2021.9.1001312534/out/client/extension
+[2021-10-14 19:15:01.242] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-10-14 19:15:01.243] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/debug-auto-launch/dist/extension
+[2021-10-14 19:15:01.256] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-10-14 19:15:01.256] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/git/dist/main
+[2021-10-14 19:15:01.678] [exthost] [info] Lock '/home/webalive/.vscode-server/data/User/workspaceStorage/665c1a26ae1857a3f9edab11f0c451ee/vscode.lock': The lock does not look stale, elapsed: 5155 ms, giving up.
+[2021-10-14 19:15:01.903] [exthost] [info] Lock '/home/webalive/.vscode-server/data/User/workspaceStorage/665c1a26ae1857a3f9edab11f0c451ee-1/vscode.lock': Lock acquired.
+[2021-10-14 19:15:02.787] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-10-14 19:15:02.787] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/github/dist/extension.js
+[2021-10-14 19:15:06.550] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2021-10-14 19:15:06.551] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.3/out/extension_renderer/index.js
+[2021-10-14 19:15:07.048] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-14 19:15:07.048] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/emmet/dist/node/emmetNodeMain
+[2021-10-14 19:15:07.167] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-14 19:15:07.168] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/merge-conflict/dist/mergeConflictMain
+[2021-10-14 19:15:07.187] [exthost] [info] eager extensions activated
+[2021-10-14 19:15:09.115] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 9954
+[2021-10-14 19:15:44.019] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onCommand:extension.js-debug.clearAutoAttachVariables'
+[2021-10-14 19:15:44.019] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/ms-vscode.js-debug/src/extension.js
+[2021-10-14 19:15:45.920] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2021-10-14 19:15:45.920] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/extensions/ms-python.vscode-pylance-2021.10.0/dist/extension.bundle.js
+[2021-10-14 19:15:48.808] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 9954
+[2021-10-14 19:16:24.285] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2021-10-14 19:16:24.286] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/html-language-features/client/dist/node/htmlClientMain
+[2021-10-14 19:17:30.249] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-14 19:17:30.250] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:113719
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+	at async s.provideHover (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:170095)
+[2021-10-14 19:17:30.251] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-14 19:17:30.252] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:113719
+	at async s.provideHover (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:170095)

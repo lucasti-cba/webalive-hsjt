@@ -1,0 +1,25 @@
+[2021-10-07 12:58:55.672] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-10-07 12:58:55.672] [remoteagent] [info] Extension host agent started.
+[2021-10-07 12:58:55.866] [remoteagent] [info] [127.0.0.1][0bfac823][ManagementConnection] New connection established.
+[2021-10-07 12:58:55.874] [remoteagent] [info] [127.0.0.1][ecf9c422][ExtensionHostConnection] New connection established.
+[2021-10-07 12:58:55.879] [remoteagent] [info] [127.0.0.1][ecf9c422][ExtensionHostConnection] <17184> Launched Extension Host Process.
+[2021-10-07 12:58:59.195] [remoteagent] [info] Installing extension: ms-python.vscode-pylance
+[2021-10-07 12:59:00.257] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-10-07 12:59:02.635] [remoteagent] [info] Downloaded extension: ms-python.vscode-pylance /home/webalive/.vscode-server/data/CachedExtensionVSIXs/ms-python.vscode-pylance-2021.10.0
+[2021-10-07 12:59:07.852] [remoteagent] [info] Extracted extension to /home/webalive/.vscode-server/extensions/.638c5712-856e-4b35-9049-d08e553448b1: ms-python.vscode-pylance
+[2021-10-07 12:59:07.903] [remoteagent] [info] Renamed to /home/webalive/.vscode-server/extensions/ms-python.vscode-pylance-2021.10.0
+[2021-10-07 12:59:07.905] [remoteagent] [info] Extracting completed. ms-python.vscode-pylance
+[2021-10-07 12:59:07.939] [remoteagent] [info] Extension installed successfully: ms-python.vscode-pylance
+[2021-10-07 14:07:25.906] [remoteagent] [info] [127.0.0.1][0bfac823][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-10-07 17:01:28.117] [remoteagent] [info] [127.0.0.1][ecf9c422][ExtensionHostConnection] <17184> Extension Host Process exited with code: 0, signal: null.
+[2021-10-07 17:01:28.118] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-10-07 17:06:28.119] [remoteagent] [info] Last EH closed, shutting down

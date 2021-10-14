@@ -1,0 +1,536 @@
+[2021-10-11 16:08:01.537] [exthost] [info] extension host started
+[2021-10-11 16:08:01.568] [exthost] [info] Lock '/home/webalive/.vscode-server/data/User/workspaceStorage/1d856348e00d38a34833224a2a3c7091/vscode.lock': Lock acquired.
+[2021-10-11 16:08:01.661] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onLanguage:html"}
+[2021-10-11 16:08:01.662] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/emmet/dist/node/emmetNodeMain
+[2021-10-11 16:08:01.693] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2021-10-11 16:08:01.694] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/html-language-features/client/dist/node/htmlClientMain
+[2021-10-11 16:08:01.811] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-10-11 16:08:01.812] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/debug-auto-launch/dist/extension
+[2021-10-11 16:08:01.817] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-10-11 16:08:01.817] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/git/dist/main
+[2021-10-11 16:08:02.605] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-10-11 16:08:02.605] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/github/dist/extension.js
+[2021-10-11 16:08:03.051] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5000
+[2021-10-11 16:08:05.308] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-10-11 16:08:05.308] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/merge-conflict/dist/mergeConflictMain
+[2021-10-11 16:08:05.315] [exthost] [info] eager extensions activated
+[2021-10-11 16:08:05.499] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-10-11 16:08:05.500] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/ms-vscode.js-debug/src/extension.js
+[2021-10-11 16:10:30.688] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2021-10-11 16:10:30.691] [exthost] [error] Canceled: Canceled
+	at T.makeCancelError (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:436860)
+	at T.handleFailedRequest (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:436711)
+	at /home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:396926
+	at async g.provideHover (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:166317)
+[2021-10-11 16:20:44.593] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready {"startup":false,"extensionId":{"value":"vscode.debug-server-ready","_lower":"vscode.debug-server-ready"},"activationEvent":"onDebugResolve"}
+[2021-10-11 16:20:44.594] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/debug-server-ready/dist/extension
+[2021-10-11 16:57:13.445] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python {"startup":false,"extensionId":{"value":"ms-python.vscode-pylance","_lower":"ms-python.vscode-pylance"},"activationEvent":"onLanguage:python"}
+[2021-10-11 16:57:13.446] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension
+[2021-10-11 16:57:13.926] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter {"startup":false,"extensionId":{"value":"ms-toolsai.jupyter","_lower":"ms-toolsai.jupyter"},"activationEvent":"onLanguage:python"}
+[2021-10-11 16:57:13.926] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/extensions/ms-toolsai.jupyter-2021.8.2041215044/out/client/extension
+[2021-10-11 16:57:15.225] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance {"startup":false,"extensionId":{"value":"ms-python.vscode-pylance","_lower":"ms-python.vscode-pylance"},"activationEvent":"onLanguage:python"}
+[2021-10-11 16:57:15.225] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/extensions/ms-python.vscode-pylance-2021.10.0/dist/extension.bundle.js
+[2021-10-11 16:57:31.161] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-11 16:57:31.161] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:113719
+	at async g.provideHover (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:166317)
+[2021-10-11 16:57:31.450] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-11 16:57:31.450] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:113719
+	at async g.provideHover (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:166317)
+[2021-10-11 16:57:36.882] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-11 16:57:36.882] [exthost] [error] TypeError: Cannot read property 'items' of undefined
+	at completionLengthMeasure (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:367070)
+	at p (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:369734)
+	at async $.provideCompletionItems (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:176917)
+[2021-10-11 16:57:48.034] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-11 16:57:48.035] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:30732)
+	at new s (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:30681)
+	at new s (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:17480)
+	at q (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:324613)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:329951)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:118287
+	at async l.provideDocumentSymbols (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:163113)
+[2021-10-11 16:57:50.930] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-11 16:57:50.930] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:30732)
+	at new s (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:30681)
+	at new s (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:17480)
+	at q (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:324613)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:329951)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:118287
+	at async l.provideDocumentSymbols (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:163113)
+[2021-10-11 16:58:04.043] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-11 16:58:04.044] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:30732)
+	at new s (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:30681)
+	at new s (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:17480)
+	at q (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:324613)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:329951)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:118287
+	at async l.provideDocumentSymbols (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:163113)
+[2021-10-11 16:58:28.182] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-11 16:58:28.183] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:30732)
+	at new s (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:30681)
+	at new s (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:17480)
+	at q (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:324613)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:329951)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:118287
+	at async l.provideDocumentSymbols (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:163113)
+[2021-10-11 16:58:48.158] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-11 16:58:48.158] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:30732)
+	at new s (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:30681)
+	at new s (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:17480)
+	at q (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:324613)
+	at q (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:324788)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:329951)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:118287
+	at async l.provideDocumentSymbols (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:163113)
+[2021-10-11 16:58:54.675] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-11 16:58:54.675] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:30732)
+	at new s (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:30681)
+	at new s (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:17480)
+	at q (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:324613)
+	at q (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:324788)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:329951)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:118287
+	at async l.provideDocumentSymbols (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:163113)
+[2021-10-11 16:59:31.456] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-11 16:59:31.457] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:30732)
+	at new s (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:30681)
+	at new s (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:17480)
+	at q (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:324613)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:329951)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:118287
+	at async l.provideDocumentSymbols (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:163113)
+[2021-10-11 16:59:31.881] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-11 16:59:31.881] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:30732)
+	at new s (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:30681)
+	at new s (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:17480)
+	at q (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:324613)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:329951)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:118287
+	at async l.provideDocumentSymbols (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:163113)
+[2021-10-11 17:00:25.103] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-11 17:00:25.103] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:30732)
+	at new s (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:30681)
+	at new s (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:17480)
+	at q (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:324613)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:329951)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:118287
+	at async l.provideDocumentSymbols (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:163113)
+[2021-10-11 18:16:24.211] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-11 18:16:24.211] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:30732)
+	at new s (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:30681)
+	at new s (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:17480)
+	at q (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:324613)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:329951)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:118287
+	at async l.provideDocumentSymbols (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:163113)
+[2021-10-11 18:16:26.387] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-11 18:16:26.388] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:30732)
+	at new s (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:30681)
+	at new s (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:17480)
+	at q (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:324613)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:329951)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:118287
+	at async l.provideDocumentSymbols (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:163113)
+[2021-10-11 18:17:16.402] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-11 18:17:16.402] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-11 18:24:30.870] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-11 18:24:30.870] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-11 18:36:00.365] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-11 18:36:00.365] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 12:16:13.362] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 12:16:13.362] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 12:27:55.547] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2021-10-13 12:27:55.548] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/extension-editing/dist/extensionEditingMain
+[2021-10-13 12:27:55.625] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:typescript"}
+[2021-10-13 12:27:55.626] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/typescript-language-features/dist/extension
+[2021-10-13 12:28:18.885] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 12:28:18.886] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:348880
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+	at async N.provideDocumentRangeSemanticTokens (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:176218)
+[2021-10-13 12:28:18.973] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 12:28:18.973] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 12:28:27.131] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 12:28:27.131] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 12:28:27.220] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 12:28:27.220] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:118365
+	at async l.provideDocumentSymbols (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:163113)
+[2021-10-13 12:28:27.277] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 12:28:27.277] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 12:28:27.316] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 12:28:27.316] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:118365
+	at async l.provideDocumentSymbols (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:163113)
+[2021-10-13 12:29:42.222] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 12:29:42.222] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:114707
+	at async j.provideSignatureHelp (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:180725)
+[2021-10-13 12:29:43.129] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 12:29:43.129] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 12:29:46.016] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 12:29:46.016] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:114707
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+	at async j.provideSignatureHelp (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:180725)
+[2021-10-13 12:29:46.530] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 12:29:46.531] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 12:29:47.967] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 12:29:47.967] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 12:29:48.115] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 12:29:48.115] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:114707
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+	at async j.provideSignatureHelp (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:180725)
+[2021-10-13 12:30:13.371] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 12:30:13.372] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:114707
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+	at async j.provideSignatureHelp (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:180725)
+[2021-10-13 12:30:13.497] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 12:30:13.497] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:114707
+	at async j.provideSignatureHelp (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:180725)
+[2021-10-13 12:30:13.517] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 12:30:13.518] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 12:30:15.444] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 12:30:15.444] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:114707
+	at async j.provideSignatureHelp (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:180725)
+[2021-10-13 12:30:15.455] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 12:30:15.455] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:114707
+	at async j.provideSignatureHelp (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:180725)
+[2021-10-13 12:30:15.748] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 12:30:15.748] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:114707
+	at async j.provideSignatureHelp (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:180725)
+[2021-10-13 12:30:15.749] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 12:30:15.749] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:114707
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+	at async j.provideSignatureHelp (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:180725)
+[2021-10-13 12:30:15.782] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 12:30:15.782] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:114707
+	at async j.provideSignatureHelp (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:180725)
+[2021-10-13 12:30:16.359] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 12:30:16.359] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 12:30:16.576] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 12:30:16.576] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 14:14:00.788] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:14:00.788] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 14:14:01.151] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:14:01.152] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 14:14:10.612] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:14:10.612] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:30732)
+	at new s (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:30681)
+	at new s (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:87:17480)
+	at q (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:324613)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:329951)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:118287
+	at async l.provideDocumentSymbols (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:163113)
+[2021-10-13 14:14:26.297] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:14:26.298] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 14:15:05.312] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:15:05.312] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 14:15:26.782] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:15:26.783] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:118365
+	at async l.provideDocumentSymbols (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:163113)
+[2021-10-13 14:15:34.115] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:15:34.116] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 14:15:35.842] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:15:35.843] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 14:15:45.488] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:15:45.488] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 14:15:49.034] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:15:49.034] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:112927
+	at async $.resolveCompletionItem (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:177637)
+[2021-10-13 14:15:54.169] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:15:54.169] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 14:15:54.825] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:15:54.825] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 14:16:12.337] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:16:12.337] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 14:16:13.244] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:16:13.245] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:114707
+	at async j.provideSignatureHelp (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:180725)
+[2021-10-13 14:16:13.251] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:16:13.251] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:114707
+	at async j.provideSignatureHelp (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:180725)
+[2021-10-13 14:16:14.726] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:16:14.726] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 14:16:20.965] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:16:20.965] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 14:16:47.968] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:16:47.968] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:113719
+	at async g.provideHover (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:166317)
+[2021-10-13 14:17:13.667] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:17:13.667] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 14:17:14.483] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:17:14.483] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 14:17:26.776] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:17:26.777] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 14:17:39.990] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:17:39.990] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 14:17:41.124] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:17:41.124] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 14:17:53.915] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:17:53.915] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:113719
+	at async g.provideHover (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:166317)
+[2021-10-13 14:18:05.084] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:18:05.085] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:113719
+	at async g.provideHover (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:166317)
+[2021-10-13 14:18:05.392] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:18:05.392] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:113719
+	at async g.provideHover (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:166317)
+[2021-10-13 14:18:09.527] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:18:09.528] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 14:18:09.912] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:18:09.912] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 14:20:36.842] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:20:36.842] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:113719
+	at async g.provideHover (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:166317)
+[2021-10-13 14:20:51.041] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:20:51.042] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:52:348880
+	at async N.provideDocumentRangeSemanticTokens (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:176218)
+[2021-10-13 14:20:51.042] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-13 14:20:51.043] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341/out/client/extension.js:9:121238
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+	at async S.provideCodeActions (/home/webalive/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:94:168622)
+[2021-10-13 16:40:03.341] [exthost] [info] extension host terminating: renderer disconnected for too long (2)
+[2021-10-13 16:40:03.343] [exthost] [info] Lock '/home/webalive/.vscode-server/data/User/workspaceStorage/1d856348e00d38a34833224a2a3c7091/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-10-13 16:40:04.463] [exthost] [info] exiting with code 0

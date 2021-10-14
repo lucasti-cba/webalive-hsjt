@@ -1,0 +1,27 @@
+[2021-10-11 16:07:59.414] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-10-11 16:07:59.414] [remoteagent] [info] Extension host agent started.
+[2021-10-11 16:07:59.638] [remoteagent] [info] [127.0.0.1][6c2b520a][ManagementConnection] New connection established.
+[2021-10-11 16:07:59.642] [remoteagent] [info] [127.0.0.1][dcf0e86f][ExtensionHostConnection] New connection established.
+[2021-10-11 16:07:59.659] [remoteagent] [info] [127.0.0.1][dcf0e86f][ExtensionHostConnection] <38945> Launched Extension Host Process.
+[2021-10-11 16:08:00.668] [remoteagent] [info] Deleted from disk ms-python.python /home/webalive/.vscode-server/extensions/ms-python.python-2021.9.1246542782
+[2021-10-11 16:08:04.301] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-10-13 16:35:03.348] [remoteagent] [info] [127.0.0.1][ff203de4][ManagementConnection] New connection established.
+[2021-10-13 16:35:03.422] [remoteagent] [info] [127.0.0.1][624e2782][ExtensionHostConnection] New connection established.
+[2021-10-13 16:35:03.496] [remoteagent] [info] [127.0.0.1][624e2782][ExtensionHostConnection] <51424> Launched Extension Host Process.
+[2021-10-13 16:35:06.367] [remoteagent] [info] [127.0.0.1][6c2b520a][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-10-13 16:35:31.533] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-10-13 16:40:04.490] [remoteagent] [info] [127.0.0.1][dcf0e86f][ExtensionHostConnection] <38945> Extension Host Process exited with code: 0, signal: null.
+[2021-10-13 19:35:06.388] [remoteagent] [info] [127.0.0.1][6c2b520a][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2021-10-13 21:04:58.075] [remoteagent] [info] [127.0.0.1][ff203de4][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-10-13 23:48:32.234] [remoteagent] [info] [127.0.0.1][624e2782][ExtensionHostConnection] <51424> Extension Host Process exited with code: 0, signal: null.
+[2021-10-13 23:48:32.235] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-10-13 23:53:32.236] [remoteagent] [info] Last EH closed, shutting down

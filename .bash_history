@@ -266,3 +266,69 @@ python3 manage.py makemigrations
 python3 manage.py migrate
 sudo systemctl restart gunicorn
 git push
+sudo systemctl restart gunicorn
+apt install libgl1-mesa-glx
+sudo apt install libgl1-mesa-glx
+sudo systemctl restart gunicorn
+pip install django-webcam==0.1.4b2
+sudo systemctl restart gunicorn
+git push
+ls
+cd myproject/
+ls
+git push
+çs
+cd ..
+çs
+ls
+git push main
+ls
+cd webalive/
+git push main
+git push origin main:main
+To https://github.com/lucasti-cba/webalive-hsjt.git
+git push origin main:main
+git push origin dev
+sudo systemctl restart gunicorn
+ls
+cd myproject/
+ls
+cd myprojectenv/
+cd bin
+source activate
+cd ..
+cd ;;
+cd ..
+ls
+python3 manage.py makemigrations
+python3 manage.py makemigrations checkin
+python3 manage.py migrate checkin
+pip3 install import cv2
+class VideoCamera(object):
+def gen(camera):
+pip3 install opencv-python
+1pip install django-webcam==0.1.4b2
+pip install django-webcam==0.1.4b2
+python3 manage.py makemigrations checkin
+pip install django-webcam==0.1.4b2
+python3 manage.py makemigrations checkin
+cd ;;
+sudo systemctl restart gunicorn
+ls
+cd myproject/
+ls
+cd ..
+ls
+cd myproject/
+cd myprojectenv/
+cd bin/
+source activate
+ls
+cd ..
+python3 manage.py startapp chamado
+ls
+python3 manage.py makemigrations
+python3 manage.py makemigrations chamado
+python3 manage.py migrate chamado
+python3 manage.py makemigrations chamado
+python3 manage.py migrate chamado

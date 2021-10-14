@@ -5,6 +5,10 @@
   {% load static %}
   {% load tz %}
 
+
+
+
+ 
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,6 +25,17 @@
   <link rel="stylesheet" href="{% static 'workhome/vendors/simple-line-icons/css/simple-line-icons.css' %}">
   <link rel="stylesheet" href="{% static 'workhome/vendors/css/vendor.bundle.base.css' %}">
   <!-- endinject -->
+
+
+
+
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
   <!-- Plugin css for this page -->
   <link rel="stylesheet" href="{% static 'workhome/vendors/datatables.net-bs4/dataTables.bootstrap4.css' %}">
   <link rel="stylesheet" href="{% static 'workhome/js/select.dataTables.min.css' %}">
@@ -160,7 +175,7 @@
               <div class="dropdown-divider"></div>
               <a class="dropdown-item preview-item">
                 <div class="preview-thumbnail">
-                  <img src="/media/{{ perfil.foto }}" alt="image" class="img-sm profile-pic">
+                  <img src="http://app.hsjtmt.com.br/media/{{ perfil.foto }}" alt="image" class="img-sm profile-pic">
                 </div>
                 <div class="preview-item-content flex-grow py-2">
                   <p class="preview-subject ellipsis font-weight-medium text-dark">Marian Garner </p>
@@ -189,10 +204,10 @@
           </li>
           <li class="nav-item dropdown d-none d-lg-block user-dropdown">
             <a class="nav-link" id="UserDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-              <img class="img-xs rounded-circle" src="../media/{{ perfil.foto.all.0.imagens }}" alt="{{ perfil.foto.all.0.imagens }}"> </a>
+              <img class="img-xs rounded-circle" src="http://app.hsjtmt.com.br/media/{{ perfil.foto.all.0.imagens }}" alt="{{ perfil.foto.all.0.imagens }}"> </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
               <div class="dropdown-header text-center">
-                <img class="img-md rounded-circle" src="../media/{{ perfil.foto.all.0.imagens }}"  width="150" height="150"  alt="Profile image">
+                <img class="img-md rounded-circle" src="http://app.hsjtmt.com.br/media/{{ perfil.foto.all.0.imagens }}"  width="150" height="150"  alt="Profile image">
                 <p class="mb-1 mt-3 font-weight-semibold">{{ perfil.nome }}</p>
                 <p class="fw-light text-muted mb-0">{{ perfil.email }}</p>
               </div>
@@ -200,7 +215,7 @@
               <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-message-text-outline text-primary me-2"></i> Mensagens</a>
 
               <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-help-circle-outline text-primary me-2"></i> Sobre</a>
-              <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-power text-primary me-2"></i>Sair</a>
+              <a class="dropdown-item" href="{% url 'logout' %}"><i class="dropdown-item-icon mdi mdi-power text-primary me-2"></i>Sair</a>
             </div>
           </li>
         </ul>
@@ -212,24 +227,7 @@
     <!-- partial -->
     <div class="container-fluid page-body-wrapper">
       
-      <div class="theme-setting-wrapper">
-        <div id="settings-trigger"><i class="ti-settings"></i></div>
-        <div id="theme-settings" class="settings-panel">
-          <i class="settings-close ti-close"></i>
-          <p class="settings-heading">SIDEBAR SKINS</p>
-          <div class="sidebar-bg-options selected" id="sidebar-light-theme"><div class="img-ss rounded-circle bg-light border me-3"></div>Light</div>
-          <div class="sidebar-bg-options" id="sidebar-dark-theme"><div class="img-ss rounded-circle bg-dark border me-3"></div>Dark</div>
-          <p class="settings-heading mt-2">HEADER SKINS</p>
-          <div class="color-tiles mx-0 px-4">
-            <div class="tiles success"></div>
-            <div class="tiles warning"></div>
-            <div class="tiles danger"></div>
-            <div class="tiles info"></div>
-            <div class="tiles dark"></div>
-            <div class="tiles default"></div>
-          </div>
-        </div>
-      </div>
+ 
   
       <div id="right-sidebar" class="settings-panel">
         <i class="settings-close ti-close"></i>
@@ -408,6 +406,23 @@
               </ul>
             </div>
           </li>
+          <li class="nav-item nav-category">Chamados e Suporte</li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#ui-chama" aria-expanded="false" aria-controls="ui-chama">
+              <i class="menu-icon mdi mdi-adjust"></i>
+              <span class="menu-title">Tickets / Equipes</span>
+              <i class="menu-arrow"></i> 
+            </a>
+            <div class="collapse" id="ui-chama">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="{% url 'cadastro_visitante' %}">Abrir Ticket</a></li>
+                <li class="nav-item"> <a class="nav-link" href="{% url 'equipe' %}">Meus Tickets</a></li>
+                <li class="nav-item"> <a class="nav-link" href="{% url 'equipe' %}">Minha Equipe</a></li>
+                <li class="nav-item"> <a class="nav-link" href="{% url 'acompanhante' %}">Rotinas</a></li>
+                <li class="nav-item"> <a class="nav-link" href="{% url 'acompanhante' %}">Relátorios</a></li>
+              </ul>
+            </div>
+          </li>
           
           {% if perms.auth.change_user %}
           <li class="nav-item nav-category">Usuários</li>
@@ -426,13 +441,7 @@
             </div>
           </li>
           {% endif %}
-          <li class="nav-item nav-category">help</li>
-          <li class="nav-item">
-            <a class="nav-link" href="http://bootstrapdash.com/demo/star-admin2-free/docs/documentation.html">
-              <i class="menu-icon mdi mdi-file-document"></i>
-              <span class="menu-title">Documentation</span>
-            </a>
-          </li>
+
         </ul>
       </nav>
       <!-- partial -->
@@ -444,19 +453,19 @@
                 <div class="d-sm-flex align-items-center justify-content-between border-bottom">
 
                   <div>
-                    <div class="btn-wrapper">
+                    <!-- <div class="btn-wrapper">
                       
                       <a href="#" class="btn btn-otline-dark"><i class="icon-printer"></i> Print</a>
                       <a href="#" class="btn btn-primary text-white me-0"><i class="icon-download"></i> Export</a>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
                 <div class="tab-content tab-content-basic">
                   <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview"> 
                     
                     <div class="row">
-                        {% block content %}
-                        {% endblock %}
+                      {% block content %}
+                      {% endblock %}
 
                     </div>
                   </div>
@@ -465,8 +474,22 @@
             </div>
           </div>
         </div>
+
+        <section>
+
+        </section>
+        
         <!-- content-wrapper ends -->
         <!-- partial:partials/_footer.html -->
+        <div class="theme-setting-wrapper">
+          <div id="settings-trigger"><i class="ti-settings"></i></div>
+          <div id="theme-settings" class="settings-panel">
+            <i class="settings-close ti-close"></i>
+
+            {% block chat %}
+            {% endblock  %}
+            </div>
+            </div>
         <footer class="footer">
           <div class="d-sm-flex justify-content-center justify-content-sm-between">
             <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Premium <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap admin template</a> from BootstrapDash.</span>
@@ -480,6 +503,37 @@
     <!-- page-body-wrapper ends -->
   </div>
   <!-- container-scroller -->
+
+	
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+
+<script>
+  $("#attach").click(function(){
+    $(".attachement").toggle();
+  });
+</script>
+<script>
+  $("#dset").click(function(){
+    $(".setting-drop").toggle('1000');
+  });
+</script>
+
+<script>
+$(document).ready(function(){
+  $(".flip").click(function(){
+      $(".message-box").show("slide", { direction: "right" }, 10000);
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $("#back").click(function(){
+      $(".message-box").hide("slide", { direction: "left" }, 10000);
+  });
+});
+</script>
 
   <!-- plugins:js -->
   <script src="{% static 'workhome/vendors/js/vendor.bundle.base.js' %}"></script>

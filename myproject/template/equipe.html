@@ -1,0 +1,80 @@
+{% extends 'body.html' %}
+
+{% load static %}
+
+
+{% block content %}
+
+<div>
+    
+    <h1>Equipes</h1>
+    <a href="#" class="btn btn-success text-white "><i class="icon-plus"></i> Adicionar</a>
+    <a href="#" class="btn btn-primary  text-white "><i class="icon-doc"></i> Relátorios</a>
+
+</div>
+
+{% for equipe in equipes %}
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">{{ equipe.nome }}</h4>
+        <table >
+            <tr>
+        {% for atendentes in equipe.pessoa.all %}
+        <td>
+        <div class="dropdown-header text-center">
+            <img class="img-md rounded-circle" src="http://app.hsjtmt.com.br/media/{{ atendentes.perfil.foto.all.0.imagens }}"  width="50" height="50"  alt="Profile image">
+            <p class="mb-1 mt-3 font-weight-semibold">{{ atendentes.perfil.nome }}</p>
+            <p class="fw-light text-muted mb-0">{{ atendentes.perfil.email }}</p>
+          </div>
+          </td>
+        {% endfor %}
+        </tr>
+        </table>
+        <a href="#" class="btn btn-success text-white " data-toggle="modal" data-target="#add_pessoa{{ equipe.id }}"><i class="icon-plus"></i> Adicionar Pessoa</a>
+        <a href="#" class="btn btn-warning  text-white "><i class="icon-trash"></i> Remover Pessoas</a>
+        <a href="#" class="btn btn-primary  text-white "><i class="icon-pencil"></i> Editar</a>
+        <a href="#" class="btn btn-danger  text-white "><i class="icon-close"></i> Excluir</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="add_pessoa{{ equipe.id }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Adicionar Pessoa a Equipe {{ equipe.nome }}</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="{% url 'addPessoa' %}" method="post" enctype="multipart/form-data" class="forms-sample">{% csrf_token %}
+            {% csrf_token %}
+            <div class="form-group">
+              <label for="id_pessoa">Pessoa</label>
+                <select class="form-control" id="id_pessoa" name="pessoa">
+                  {% for perfil in perfils %}
+                  {% if perfil.user.id  != null  %}
+                  <option value='{{ perfil.user.id }}'> {{ perfil.nome }}</option>
+                  {% endif %}
+                  {% endfor %}
+                </select>
+              </div>
+              <input id="id_equipe" name="equipe" type="hidden" value="{{ equipe.id }}" />
+          <button type="submit" style="color: azure;" class="btn btn-primary me-2">Cadastrar</button>
+          
+        </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning  text-white " data-dismiss="modal"><i class="icon-close"></i> Fechar</button>
+          <button type="button" class="btn btn-success text-white "><i class="icon-plus"></i>Adicionar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+
+{% endblock %}

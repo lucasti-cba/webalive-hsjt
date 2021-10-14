@@ -1,0 +1,47 @@
+[2021-10-14 11:08:05.908] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-10-14 11:08:05.908] [remoteagent] [info] Extension host agent started.
+[2021-10-14 11:08:07.205] [remoteagent] [info] [127.0.0.1][e1c6aa21][ManagementConnection] New connection established.
+[2021-10-14 11:08:07.216] [remoteagent] [info] [127.0.0.1][a70a9f01][ExtensionHostConnection] New connection established.
+[2021-10-14 11:08:07.275] [remoteagent] [info] [127.0.0.1][a70a9f01][ExtensionHostConnection] <56760> Launched Extension Host Process.
+[2021-10-14 11:08:15.567] [remoteagent] [info] Installing extension: ms-python.python
+[2021-10-14 11:08:15.689] [remoteagent] [info] Installing extension: ms-toolsai.jupyter
+[2021-10-14 11:08:17.719] [remoteagent] [info] Installing extension: ms-toolsai.jupyter-renderers
+[2021-10-14 11:08:22.323] [remoteagent] [info] Downloaded extension: ms-python.python /home/webalive/.vscode-server/data/CachedExtensionVSIXs/ms-python.python-2021.10.1336267007
+[2021-10-14 11:08:23.452] [remoteagent] [info] Downloaded extension: ms-toolsai.jupyter-renderers /home/webalive/.vscode-server/data/CachedExtensionVSIXs/ms-toolsai.jupyter-renderers-1.0.3
+[2021-10-14 11:08:32.110] [remoteagent] [info] Extracted extension to /home/webalive/.vscode-server/extensions/.1a5e4595-57d1-4bb7-848c-d556ee9019af: ms-toolsai.jupyter-renderers
+[2021-10-14 11:08:32.169] [remoteagent] [info] Renamed to /home/webalive/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.3
+[2021-10-14 11:08:32.176] [remoteagent] [info] Extracting completed. ms-toolsai.jupyter-renderers
+[2021-10-14 11:08:37.176] [remoteagent] [info] Downloaded extension: ms-toolsai.jupyter /home/webalive/.vscode-server/data/CachedExtensionVSIXs/ms-toolsai.jupyter-2021.9.1001312534
+[2021-10-14 11:08:37.407] [remoteagent] [info] [127.0.0.1][a70a9f01][ExtensionHostConnection] The client has reconnected.
+[2021-10-14 11:08:46.195] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-10-14 11:08:58.363] [remoteagent] [info] [127.0.0.1][a70a9f01][ExtensionHostConnection] The client has reconnected.
+[2021-10-14 11:09:02.070] [remoteagent] [info] Extracted extension to /home/webalive/.vscode-server/extensions/.718236e4-063e-4fa7-a62d-00ff95f08650: ms-toolsai.jupyter
+[2021-10-14 11:09:02.439] [remoteagent] [info] Renamed to /home/webalive/.vscode-server/extensions/ms-toolsai.jupyter-2021.9.1001312534
+[2021-10-14 11:09:02.454] [remoteagent] [info] Extracting completed. ms-toolsai.jupyter
+[2021-10-14 11:09:02.656] [remoteagent] [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+[2021-10-14 11:09:02.657] [remoteagent] [info] Extension installed successfully: ms-toolsai.jupyter
+[2021-10-14 11:09:11.554] [remoteagent] [info] Extracted extension to /home/webalive/.vscode-server/extensions/.f0ed311b-df9e-430b-9ac3-9e68fb03566f: ms-python.python
+[2021-10-14 11:09:11.637] [remoteagent] [info] Renamed to /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007
+[2021-10-14 11:09:11.645] [remoteagent] [info] Extracting completed. ms-python.python
+[2021-10-14 11:09:11.672] [remoteagent] [info] Extension installed successfully: ms-python.python
+[2021-10-14 11:46:32.141] [remoteagent] [info] [127.0.0.1][a70a9f01][ExtensionHostConnection] The client has reconnected.
+[2021-10-14 11:46:52.235] [remoteagent] [info] [127.0.0.1][a70a9f01][ExtensionHostConnection] The client has reconnected.
+[2021-10-14 19:14:49.881] [remoteagent] [info] [127.0.0.1][e8b94551][ManagementConnection] New connection established.
+[2021-10-14 19:14:49.919] [remoteagent] [info] [127.0.0.1][f90f585e][ExtensionHostConnection] New connection established.
+[2021-10-14 19:14:49.977] [remoteagent] [info] [127.0.0.1][f90f585e][ExtensionHostConnection] <59465> Launched Extension Host Process.
+[2021-10-14 19:15:16.080] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-10-14 19:15:23.746] [remoteagent] [info] [127.0.0.1][f90f585e][ExtensionHostConnection] The client has reconnected.
+[2021-10-14 19:15:43.796] [remoteagent] [info] [127.0.0.1][f90f585e][ExtensionHostConnection] The client has reconnected.
+[2021-10-14 19:16:03.821] [remoteagent] [info] [127.0.0.1][f90f585e][ExtensionHostConnection] The client has reconnected.
+[2021-10-14 19:16:23.847] [remoteagent] [info] [127.0.0.1][f90f585e][ExtensionHostConnection] The client has reconnected.
+[2021-10-14 19:19:52.759] [remoteagent] [info] [127.0.0.1][a70a9f01][ExtensionHostConnection] <56760> Extension Host Process exited with code: 0, signal: null.
+[2021-10-14 19:23:35.944] [remoteagent] [info] [127.0.0.1][e1c6aa21][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

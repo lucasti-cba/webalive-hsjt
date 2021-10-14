@@ -23,7 +23,9 @@ from camera import VideoCamera, gen
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('auth.urls')),
+    path('', include('auth.urls')), 
+    path('chamados/', include('chamado.urls')), 
+    path('accounts/', include('auth.urls')),
     path('visitantes/', include('checkin.urls')),
     path('monitor/', lambda r: StreamingHttpResponse(gen(VideoCamera()),
                                                      content_type='multipart/x-mixed-replace; boundary=frame')),

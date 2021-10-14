@@ -1,0 +1,238 @@
+Validating found git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/webalive
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/lucasti-cba/webalive-hsjt.git/'
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/chamado/views.py
+> git show --textconv :myproject/chamado/models.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/models.py
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git cat-file -s db83f293df3ebc2047b9b2b38597ae232f222f15
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/chamado/urls.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/urls.py
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/myproject/urls.py
+> git ls-files --stage -- /home/webalive/myproject/myproject/urls.py
+> git cat-file -s 31966038742f99ccb9ea6cf8aca6516ab808296b
+> git show --textconv :myproject/myproject/settings.py
+> git ls-files --stage -- /home/webalive/myproject/myproject/settings.py
+> git cat-file -s c4aa7605d0b92626e192fbe82a221d8e0d6cd91d
+> git show --textconv :myproject/chamado/urls.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/urls.py
+> git show --textconv :myproject/chamado/urls.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/urls.py
+> git show --textconv :myproject/myproject/settings.py
+> git ls-files --stage -- /home/webalive/myproject/myproject/settings.py
+> git cat-file -s c4aa7605d0b92626e192fbe82a221d8e0d6cd91d
+> git show --textconv :myproject/chamado/urls.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/urls.py
+> git show --textconv :myproject/myproject/urls.py
+> git ls-files --stage -- /home/webalive/myproject/myproject/urls.py
+> git cat-file -s 31966038742f99ccb9ea6cf8aca6516ab808296b
+> git show --textconv :myproject/chamado/urls.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/urls.py
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git cat-file -s db83f293df3ebc2047b9b2b38597ae232f222f15
+> git show --textconv :myproject/template/visitante.html
+> git ls-files --stage -- /home/webalive/myproject/template/visitante.html
+> git cat-file -s 2d270b9715be0997ff151e2b1361e7cd7861884d
+> git show --textconv :myproject/template/visitante copy.html
+> git ls-files --stage -- /home/webalive/myproject/template/visitante copy.html
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/chamado/forms.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/forms.py
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git show --textconv :myproject/chamado/urls.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/urls.py
+> git show --textconv :myproject/chamado/forms.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/forms.py
+> git show --textconv :myproject/template/acompanhante.html
+> git ls-files --stage -- /home/webalive/myproject/template/acompanhante.html
+> git cat-file -s 2d270b9715be0997ff151e2b1361e7cd7861884d
+> git show --textconv :myproject/template/cadastrarEquipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/cadastrarEquipe.html
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git show --textconv :myproject/template/newUser.html
+> git ls-files --stage -- /home/webalive/myproject/template/newUser.html
+> git cat-file -s 7eaecc8315c465531554482473d68fab9be29af6
+> git show --textconv :myproject/template/visitante.html
+> git ls-files --stage -- /home/webalive/myproject/template/visitante.html
+> git cat-file -s 2d270b9715be0997ff151e2b1361e7cd7861884d
+> git show --textconv :myproject/template/workhome.html
+> git ls-files --stage -- /home/webalive/myproject/template/workhome.html
+> git cat-file -s 2d270b9715be0997ff151e2b1361e7cd7861884d
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git cat-file -s db83f293df3ebc2047b9b2b38597ae232f222f15
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git cat-file -s db83f293df3ebc2047b9b2b38597ae232f222f15
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git cat-file -s db83f293df3ebc2047b9b2b38597ae232f222f15
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git cat-file -s db83f293df3ebc2047b9b2b38597ae232f222f15
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git cat-file -s db83f293df3ebc2047b9b2b38597ae232f222f15
+> git show --textconv :myproject/checkin/views.py
+> git ls-files --stage -- /home/webalive/myproject/checkin/views.py
+> git cat-file -s 5bbc61efc0c25696b7c5cec223d48601793b4488
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git show --textconv :myproject/checkin/views.py
+> git ls-files --stage -- /home/webalive/myproject/checkin/views.py
+> git cat-file -s 5bbc61efc0c25696b7c5cec223d48601793b4488
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git show --textconv :myproject/checkin/views.py
+> git ls-files --stage -- /home/webalive/myproject/checkin/views.py
+> git cat-file -s 5bbc61efc0c25696b7c5cec223d48601793b4488
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/webalive/myproject/chamado/views.py
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git cat-file -s db83f293df3ebc2047b9b2b38597ae232f222f15
+> git show --textconv :myproject/checkin/views.py
+> git ls-files --stage -- /home/webalive/myproject/checkin/views.py
+> git cat-file -s 5bbc61efc0c25696b7c5cec223d48601793b4488
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git show --textconv :myproject/template/acompanhante.html
+> git ls-files --stage -- /home/webalive/myproject/template/acompanhante.html
+> git cat-file -s 2d270b9715be0997ff151e2b1361e7cd7861884d
+> git show --textconv :myproject/template/cadastrarEquipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/cadastrarEquipe.html
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git show --textconv :myproject/checkin/admin.py
+> git ls-files --stage -- /home/webalive/myproject/checkin/admin.py
+> git cat-file -s 8c38f3f3dad51e4585f3984282c2a4bec5349c1e
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/perfil/admin.py
+> git ls-files --stage -- /home/webalive/myproject/perfil/admin.py
+> git cat-file -s 4f5d460d83dffbd164c76b5a849cc03a94c90ab8
+> git show --textconv :myproject/chamado/admin.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/admin.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/webalive/myproject/chamado/views.py
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/webalive/myproject/perfil/admin.py
+> git show --textconv :myproject/perfil/admin.py
+> git ls-files --stage -- /home/webalive/myproject/perfil/admin.py
+> git cat-file -s 4f5d460d83dffbd164c76b5a849cc03a94c90ab8
+> git show --textconv :myproject/checkin/admin.py
+> git ls-files --stage -- /home/webalive/myproject/checkin/admin.py
+> git cat-file -s 8c38f3f3dad51e4585f3984282c2a4bec5349c1e
+> git show --textconv :myproject/perfil/admin.py
+> git ls-files --stage -- /home/webalive/myproject/perfil/admin.py
+> git cat-file -s 4f5d460d83dffbd164c76b5a849cc03a94c90ab8
+> git show --textconv :myproject/checkin/admin.py
+> git ls-files --stage -- /home/webalive/myproject/checkin/admin.py
+> git cat-file -s 8c38f3f3dad51e4585f3984282c2a4bec5349c1e
+> git show --textconv :myproject/perfil/admin.py
+> git ls-files --stage -- /home/webalive/myproject/perfil/admin.py
+> git cat-file -s 4f5d460d83dffbd164c76b5a849cc03a94c90ab8
+> git show --textconv :myproject/chamado/admin.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/admin.py
+> git show --textconv :myproject/chamado/models.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/models.py
+> git show --textconv :myproject/perfil/models.py
+> git ls-files --stage -- /home/webalive/myproject/perfil/models.py
+> git cat-file -s 55947df8012b2e5d12c805cf5ce469bd3d4d9d61
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git show --textconv :myproject/checkin/views.py
+> git ls-files --stage -- /home/webalive/myproject/checkin/views.py
+> git cat-file -s 5bbc61efc0c25696b7c5cec223d48601793b4488
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git show --textconv :myproject/chamado/urls.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/urls.py
+> git show --textconv :myproject/perfil/models.py
+> git ls-files --stage -- /home/webalive/myproject/perfil/models.py
+> git cat-file -s 55947df8012b2e5d12c805cf5ce469bd3d4d9d61
+> git show --textconv :myproject/chamado/urls.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/urls.py
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git show --textconv :myproject/template/acompanhante.html
+> git ls-files --stage -- /home/webalive/myproject/template/acompanhante.html
+> git cat-file -s 2d270b9715be0997ff151e2b1361e7cd7861884d
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git show --textconv :myproject/template/cadastrarEquipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/cadastrarEquipe.html
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git show --textconv :myproject/chamado/forms.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/forms.py
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git show --textconv :myproject/chamado/urls.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/urls.py
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git show --textconv :myproject/checkin/views.py
+> git ls-files --stage -- /home/webalive/myproject/checkin/views.py
+> git cat-file -s 5bbc61efc0c25696b7c5cec223d48601793b4488
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git cat-file -s db83f293df3ebc2047b9b2b38597ae232f222f15
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/webalive/myproject/template/equipe.html
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git cat-file -s db83f293df3ebc2047b9b2b38597ae232f222f15

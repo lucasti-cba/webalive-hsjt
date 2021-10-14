@@ -47,3 +47,6 @@
 	at onwrite (internal/streams/writable.js:446:7)
 	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
 	at Zlib.processCallback (zlib.js:586:8)
+[2021-10-05 00:03:43.310] [exthost] [info] extension host terminating: renderer disconnected for too long (1)
+[2021-10-05 00:03:43.311] [exthost] [info] Lock '/home/webalive/.vscode-server/data/User/workspaceStorage/665c1a26ae1857a3f9edab11f0c451ee-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-10-05 00:03:44.331] [exthost] [info] exiting with code 0

@@ -1,0 +1,57 @@
+Validating found git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/webalive
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/lucasti-cba/webalive-hsjt.git/'
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 0c711af5a405de720e01de896940db80797db32b
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/auth/models.py
+> git ls-files --stage -- /home/webalive/myproject/auth/models.py
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/template/visitante.html
+> git ls-files --stage -- /home/webalive/myproject/template/visitante.html
+> git cat-file -s 2d270b9715be0997ff151e2b1361e7cd7861884d
+> git show --textconv :myproject/template/login.html
+> git ls-files --stage -- /home/webalive/myproject/template/login.html
+> git cat-file -s 808e5a3bd176978a6673c2b3dfadf85857937bbc
+> git show --textconv :myproject/template/cadastro_visitante.html
+> git ls-files --stage -- /home/webalive/myproject/template/cadastro_visitante.html
+> git cat-file -s 7eaecc8315c465531554482473d68fab9be29af6
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/checkin/views.py
+> git ls-files --stage -- /home/webalive/myproject/checkin/views.py
+> git cat-file -s 5bbc61efc0c25696b7c5cec223d48601793b4488
+> git show --textconv :myproject/template/cadastro_visitante.html
+> git ls-files --stage -- /home/webalive/myproject/template/cadastro_visitante.html
+> git cat-file -s 7eaecc8315c465531554482473d68fab9be29af6
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git cat-file -s db83f293df3ebc2047b9b2b38597ae232f222f15
+> git show --textconv :myproject/template/cadastro_visitante.html
+> git ls-files --stage -- /home/webalive/myproject/template/cadastro_visitante.html
+> git cat-file -s 7eaecc8315c465531554482473d68fab9be29af6

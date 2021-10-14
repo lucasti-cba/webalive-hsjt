@@ -1,0 +1,26 @@
+[2021-10-08 17:45:44.058] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-10-08 17:45:44.058] [remoteagent] [info] Extension host agent started.
+[2021-10-08 17:45:44.233] [remoteagent] [info] [127.0.0.1][f3a29812][ManagementConnection] New connection established.
+[2021-10-08 17:45:44.237] [remoteagent] [info] [127.0.0.1][495b7330][ExtensionHostConnection] New connection established.
+[2021-10-08 17:45:44.253] [remoteagent] [info] [127.0.0.1][495b7330][ExtensionHostConnection] <24368> Launched Extension Host Process.
+[2021-10-08 17:45:45.087] [remoteagent] [info] Deleted from disk ms-python.vscode-pylance /home/webalive/.vscode-server/extensions/ms-python.vscode-pylance-2021.9.4
+[2021-10-08 17:45:48.908] [remoteagent] [info] Installing extension: ms-python.python
+[2021-10-08 17:45:48.986] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-10-08 17:45:51.170] [remoteagent] [info] Downloaded extension: ms-python.python /home/webalive/.vscode-server/data/CachedExtensionVSIXs/ms-python.python-2021.10.1317843341
+[2021-10-08 17:45:55.296] [remoteagent] [info] Extracted extension to /home/webalive/.vscode-server/extensions/.e84eef7d-146f-4fe9-a8f2-b3a03530eb69: ms-python.python
+[2021-10-08 17:45:55.361] [remoteagent] [info] Renamed to /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341
+[2021-10-08 17:45:55.366] [remoteagent] [info] Extracting completed. ms-python.python
+[2021-10-08 17:45:55.411] [remoteagent] [info] Extension installed successfully: ms-python.python
+[2021-10-08 19:04:48.982] [remoteagent] [info] [127.0.0.1][f3a29812][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-10-08 19:04:50.055] [remoteagent] [info] [127.0.0.1][495b7330][ExtensionHostConnection] <24368> Extension Host Process exited with code: 0, signal: null.
+[2021-10-08 19:04:50.056] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-10-08 19:09:50.057] [remoteagent] [info] Last EH closed, shutting down

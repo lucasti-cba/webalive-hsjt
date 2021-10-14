@@ -1,0 +1,71 @@
+[2021-10-05 13:30:17.846] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-10-05 13:30:17.846] [remoteagent] [info] Extension host agent started.
+[2021-10-05 13:30:18.180] [remoteagent] [info] [127.0.0.1][d6c8f760][ManagementConnection] New connection established.
+[2021-10-05 13:30:18.182] [remoteagent] [info] [127.0.0.1][78d289de][ExtensionHostConnection] New connection established.
+[2021-10-05 13:30:18.187] [remoteagent] [info] [127.0.0.1][78d289de][ExtensionHostConnection] <1333> Launched Extension Host Process.
+[2021-10-05 13:30:53.917] [remoteagent] [info] [127.0.0.1][d6c8f760][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-10-05 13:30:54.943] [remoteagent] [info] [127.0.0.1][78d289de][ExtensionHostConnection] <1333> Extension Host Process exited with code: 0, signal: null.
+[2021-10-05 13:30:54.944] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-10-05 13:31:25.613] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2021-10-05 13:31:25.613] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-10-05 13:31:25.697] [remoteagent] [info] [127.0.0.1][ce0334fd][ManagementConnection] New connection established.
+[2021-10-05 13:31:25.699] [remoteagent] [info] [127.0.0.1][2ae391aa][ExtensionHostConnection] New connection established.
+[2021-10-05 13:31:25.706] [remoteagent] [info] [127.0.0.1][2ae391aa][ExtensionHostConnection] <1503> Launched Extension Host Process.
+[2021-10-05 13:31:30.181] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-10-05 13:36:25.614] [remoteagent] [info] New EH opened, aborting shutdown
+[2021-10-06 12:36:51.007] [remoteagent] [info] [127.0.0.1][ce0334fd][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-10-06 13:57:05.400] [remoteagent] [info] [127.0.0.1][ce0334fd][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2021-10-06 13:57:05.401] [remoteagent] [info] [127.0.0.1][2e85c7d0][ManagementConnection] New connection established.
+[2021-10-06 13:57:05.476] [remoteagent] [info] [127.0.0.1][cc33ff4d][ExtensionHostConnection] New connection established.
+[2021-10-06 13:57:05.483] [remoteagent] [info] [127.0.0.1][cc33ff4d][ExtensionHostConnection] <8120> Launched Extension Host Process.
+[2021-10-06 13:57:09.632] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-10-06 14:02:05.402] [remoteagent] [info] [127.0.0.1][ce0334fd][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2021-10-06 14:02:06.436] [remoteagent] [info] [127.0.0.1][2ae391aa][ExtensionHostConnection] <1503> Extension Host Process exited with code: 0, signal: null.
+[2021-10-06 14:47:06.749] [remoteagent] [info] Installing extension: ms-python.vscode-pylance
+[2021-10-06 14:47:08.819] [remoteagent] [info] Installing extension: ms-python.python
+[2021-10-06 14:47:08.820] [remoteagent] [info] Installing extension: ms-toolsai.jupyter
+[2021-10-06 14:47:08.820] [remoteagent] [info] Installing extension: ms-toolsai.jupyter-keymap
+[2021-10-06 14:47:09.637] [remoteagent] [info] Downloaded extension: ms-toolsai.jupyter-keymap /home/webalive/.vscode-server/data/CachedExtensionVSIXs/ms-toolsai.jupyter-keymap-1.0.0
+[2021-10-06 14:47:09.669] [remoteagent] [info] Extracted extension to /home/webalive/.vscode-server/extensions/.029f028d-b443-454f-b285-9cddac2c7a26: ms-toolsai.jupyter-keymap
+[2021-10-06 14:47:09.685] [remoteagent] [info] Renamed to /home/webalive/.vscode-server/extensions/ms-toolsai.jupyter-keymap-1.0.0
+[2021-10-06 14:47:09.686] [remoteagent] [info] Extracting completed. ms-toolsai.jupyter-keymap
+[2021-10-06 14:47:11.923] [remoteagent] [info] Downloaded extension: ms-python.python /home/webalive/.vscode-server/data/CachedExtensionVSIXs/ms-python.python-2021.9.1246542782
+[2021-10-06 14:47:15.055] [remoteagent] [info] Downloaded extension: ms-toolsai.jupyter /home/webalive/.vscode-server/data/CachedExtensionVSIXs/ms-toolsai.jupyter-2021.8.2041215044
+[2021-10-06 14:47:16.594] [remoteagent] [info] Extracted extension to /home/webalive/.vscode-server/extensions/.cc37f327-1ca8-4e11-af12-26fa91751c6d: ms-toolsai.jupyter
+[2021-10-06 14:47:16.634] [remoteagent] [info] Renamed to /home/webalive/.vscode-server/extensions/ms-toolsai.jupyter-2021.8.2041215044
+[2021-10-06 14:47:16.638] [remoteagent] [info] Extracting completed. ms-toolsai.jupyter
+[2021-10-06 14:47:17.973] [remoteagent] [info] Extracted extension to /home/webalive/.vscode-server/extensions/.257d792e-3955-4c4b-950e-e521367ef961: ms-python.python
+[2021-10-06 14:47:18.003] [remoteagent] [info] Renamed to /home/webalive/.vscode-server/extensions/ms-python.python-2021.9.1246542782
+[2021-10-06 14:47:18.009] [remoteagent] [info] Extracting completed. ms-python.python
+[2021-10-06 14:47:20.719] [remoteagent] [info] Downloaded extension: ms-python.vscode-pylance /home/webalive/.vscode-server/data/CachedExtensionVSIXs/ms-python.vscode-pylance-2021.9.4
+[2021-10-06 14:47:25.325] [remoteagent] [info] Extracted extension to /home/webalive/.vscode-server/extensions/.25bf3843-bba0-4903-85af-2f1830beedb0: ms-python.vscode-pylance
+[2021-10-06 14:47:25.392] [remoteagent] [info] Renamed to /home/webalive/.vscode-server/extensions/ms-python.vscode-pylance-2021.9.4
+[2021-10-06 14:47:25.393] [remoteagent] [info] Extracting completed. ms-python.vscode-pylance
+[2021-10-06 14:47:25.415] [remoteagent] [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+[2021-10-06 14:47:25.415] [remoteagent] [info] Extension installed successfully: ms-toolsai.jupyter
+[2021-10-06 14:47:25.415] [remoteagent] [info] Extension installed successfully: ms-python.python
+[2021-10-06 14:47:25.415] [remoteagent] [info] Extension installed successfully: ms-python.vscode-pylance
+[2021-10-06 17:26:52.729] [remoteagent] [info] [127.0.0.1][2e85c7d0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-10-06 17:26:53.780] [remoteagent] [info] [127.0.0.1][cc33ff4d][ExtensionHostConnection] <8120> Extension Host Process exited with code: 0, signal: null.
+[2021-10-06 17:26:53.781] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-10-06 17:27:01.728] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2021-10-06 17:27:01.728] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-10-06 17:27:01.802] [remoteagent] [info] [127.0.0.1][2c8ecc75][ManagementConnection] New connection established.
+[2021-10-06 17:27:01.944] [remoteagent] [info] [127.0.0.1][9231eb34][ExtensionHostConnection] New connection established.
+[2021-10-06 17:27:01.955] [remoteagent] [info] [127.0.0.1][9231eb34][ExtensionHostConnection] <13093> Launched Extension Host Process.
+[2021-10-06 17:27:06.208] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-10-06 17:32:01.728] [remoteagent] [info] New EH opened, aborting shutdown
+[2021-10-06 20:21:46.868] [remoteagent] [info] [127.0.0.1][2c8ecc75][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-10-06 23:21:40.124] [remoteagent] [info] [127.0.0.1][9231eb34][ExtensionHostConnection] <13093> Extension Host Process exited with code: 0, signal: null.
+[2021-10-06 23:21:40.125] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-10-06 23:21:46.869] [remoteagent] [info] [127.0.0.1][2c8ecc75][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2021-10-06 23:26:40.126] [remoteagent] [info] Last EH closed, shutting down

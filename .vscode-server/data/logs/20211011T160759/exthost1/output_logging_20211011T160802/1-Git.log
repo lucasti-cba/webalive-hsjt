@@ -1,0 +1,132 @@
+Validating found git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/webalive
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/lucasti-cba/webalive-hsjt.git/'
+> git show --textconv :myproject/template/cadastro_visitante.html
+> git ls-files --stage -- /home/webalive/myproject/template/cadastro_visitante.html
+> git check-ignore -v -z --stdin
+> git cat-file -s 7eaecc8315c465531554482473d68fab9be29af6
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git cat-file -s db83f293df3ebc2047b9b2b38597ae232f222f15
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/static/workhome/pages/icons/mdi.html
+> git ls-files --stage -- /home/webalive/myproject/static/workhome/pages/icons/mdi.html
+> git cat-file -s 1f1b7792c2ed6dd33f66738e3ef18de1225f3493
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git cat-file -s db83f293df3ebc2047b9b2b38597ae232f222f15
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/checkin/models.py
+> git ls-files --stage -- /home/webalive/myproject/checkin/models.py
+> git cat-file -s 9bdf5923b37f17f76a3e1b3a35c67655be9b5738
+> git show --textconv :myproject/chamado/models.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/models.py
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/myproject/settings.py
+> git ls-files --stage -- /home/webalive/myproject/myproject/settings.py
+> git cat-file -s c4aa7605d0b92626e192fbe82a221d8e0d6cd91d
+> git show --textconv :myproject/chamado/models.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/models.py
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/template/base.html
+> git ls-files --stage -- /home/webalive/myproject/template/base.html
+> git cat-file -s db83f293df3ebc2047b9b2b38597ae232f222f15
+> git show --textconv :myproject/checkin/views.py
+> git ls-files --stage -- /home/webalive/myproject/checkin/views.py
+> git cat-file -s 5bbc61efc0c25696b7c5cec223d48601793b4488
+> git show --textconv :myproject/chamado/models.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/models.py
+> git show --textconv :myproject/checkin/views.py
+> git ls-files --stage -- /home/webalive/myproject/checkin/views.py
+> git cat-file -s 5bbc61efc0c25696b7c5cec223d48601793b4488
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git show --textconv :myproject/checkin/views.py
+> git ls-files --stage -- /home/webalive/myproject/checkin/views.py
+> git cat-file -s 5bbc61efc0c25696b7c5cec223d48601793b4488
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git show --textconv :myproject/checkin/forms.py
+> git ls-files --stage -- /home/webalive/myproject/checkin/forms.py
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :myproject/chamado/forms.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/forms.py
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/checkin/forms.py
+> git ls-files --stage -- /home/webalive/myproject/checkin/forms.py
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git show --textconv :myproject/checkin/views.py
+> git ls-files --stage -- /home/webalive/myproject/checkin/views.py
+> git cat-file -s 5bbc61efc0c25696b7c5cec223d48601793b4488
+> git show --textconv :myproject/checkin/forms.py
+> git ls-files --stage -- /home/webalive/myproject/checkin/forms.py
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :myproject/checkin/views.py
+> git ls-files --stage -- /home/webalive/myproject/checkin/views.py
+> git cat-file -s 5bbc61efc0c25696b7c5cec223d48601793b4488
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git show --textconv :myproject/checkin/views.py
+> git ls-files --stage -- /home/webalive/myproject/checkin/views.py
+> git cat-file -s 5bbc61efc0c25696b7c5cec223d48601793b4488
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git show --textconv :myproject/static/workhome/pages/icons/mdi.html
+> git ls-files --stage -- /home/webalive/myproject/static/workhome/pages/icons/mdi.html
+> git cat-file -s 1f1b7792c2ed6dd33f66738e3ef18de1225f3493
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git show --textconv :myproject/chamado/models.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/models.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/webalive/myproject/chamado/models.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n41 -- /home/webalive/myproject/chamado/models.py
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git show --textconv :myproject/template/cadastro_visitante.html
+> git ls-files --stage -- /home/webalive/myproject/template/cadastro_visitante.html
+> git cat-file -s 7eaecc8315c465531554482473d68fab9be29af6
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 0c711af5a405de720e01de896940db80797db32b
+> git show --textconv :myproject/template/cadastro_visitante.html
+> git ls-files --stage -- /home/webalive/myproject/template/cadastro_visitante.html
+> git cat-file -s 7eaecc8315c465531554482473d68fab9be29af6
+> git show --textconv :myproject/template/cadastro_visitante copy.html
+> git ls-files --stage -- /home/webalive/myproject/template/cadastro_visitante copy.html
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s 0c711af5a405de720e01de896940db80797db32b
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/template/cadastro_visitante copy.html
+> git ls-files --stage -- /home/webalive/myproject/template/cadastro_visitante copy.html
+> git show --textconv :myproject/template/cadastro_visitante.html
+> git ls-files --stage -- /home/webalive/myproject/template/cadastro_visitante.html
+> git cat-file -s 7eaecc8315c465531554482473d68fab9be29af6
+> git show --textconv :myproject/template/cadastro_visitante copy.html
+> git ls-files --stage -- /home/webalive/myproject/template/cadastro_visitante copy.html
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git check-ignore -v -z --stdin

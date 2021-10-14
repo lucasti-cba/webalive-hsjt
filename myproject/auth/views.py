@@ -31,14 +31,24 @@ def index(request):
         if usuario is not None:
             auth_login(request, usuario)
             user = request.user.id
+            return redirect('workhome')
         else:
             mensagem = 'Usuario ou senha invalido.'
     return render(request, 'login.html')
 
+
+@login_required(redirect_field_name='index')
+def logout(request):
+    auth_logout(request)
+    return redirect('index')
+
+@login_required(redirect_field_name='index')
 def workhome(request):
 
     return render(request, 'workhome.html', {'perfil': get_perfil(request.user.id) })
 
+    
+@login_required(redirect_field_name='index')
 def criar_user(request):
 
     user = request.user

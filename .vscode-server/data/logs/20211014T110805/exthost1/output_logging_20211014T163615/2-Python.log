@@ -1,0 +1,19 @@
+User belongs to experiment group 'pythonaacf'
+User belongs to experiment group 'pythonJediLSP'
+User belongs to experiment group 'pythonDiscoveryModuleWithoutWatcher'
+User belongs to experiment group 'pythonTensorboardExperiment'
+User belongs to experiment group 'pythonSurveyNotification'
+User belongs to experiment group 'PythonPyTorchProfiler'
+User belongs to experiment group 'pythonDeprecatePythonPath'
+User belongs to experiment group 'pythonSortEnvs'
+User belongs to experiment group 'pythonRunFailedTestsButtonDisplayed'
+User belongs to experiment group 'pythonRefreshTestsButtonDisplayed'
+User belongs to experiment group 'pythonRememberDebugConfig'
+Info 2021-10-14 16:36:18: Cached data exists KeyPrefix=Cache_Method_Output_h.addKeyToStorage-Args="global"-Arg-Separator-"WORKSPACE_FOLDER_INTERPRETER_PATH_/home/webalive"-Arg-Separator-undefined
+Info 2021-10-14 16:36:18: Cached data exists KeyPrefix=Cache_Method_Output_h.addKeyToStorage-Args="workspace"-Arg-Separator-"autoSelectedWorkspacePythonInterpreter-/home/webalive"-Arg-Separator-undefined
+Info 2021-10-14 16:36:18: Cached data exists KeyPrefix=Cache_Method_Output_h.addKeyToStorage-Args="workspace"-Arg-Separator-"autoSelectedWorkspacePythonInterpreter-/home/webalive"-Arg-Separator-undefined
+Python interpreter path: /bin/python3
+Starting Pylance language server.
+> conda --version
+Error 2021-10-14 19:19:51: Error while running worker[Worker 1]. undefined
+Error 2021-10-14 19:19:51: Error while running worker[Worker 2]. undefined
