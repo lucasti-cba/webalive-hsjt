@@ -8,7 +8,7 @@
 <div>
     
     <h1>Equipes</h1>
-    <a href="#" class="btn btn-success text-white "><i class="icon-plus"></i> Adicionar</a>
+    <a href="#" class="btn btn-success text-white " data-toggle="modal" data-target="#add_equipe"><i class="icon-plus"></i> Adicionar Equipe</a>
     <a href="#" class="btn btn-primary  text-white "><i class="icon-doc"></i> Relátorios</a>
 
 </div>
@@ -32,9 +32,9 @@
         </tr>
         </table>
         <a href="#" class="btn btn-success text-white " data-toggle="modal" data-target="#add_pessoa{{ equipe.id }}"><i class="icon-plus"></i> Adicionar Pessoa</a>
-        <a href="#" class="btn btn-warning  text-white "><i class="icon-trash"></i> Remover Pessoas</a>
+        <a href="#" class="btn btn-warning  text-white"  data-toggle="modal" data-target="#del_pessoa{{ equipe.id }}"><i class="icon-trash"></i> Remover Pessoas</a>
         <a href="#" class="btn btn-primary  text-white "><i class="icon-pencil"></i> Editar</a>
-        <a href="#" class="btn btn-danger  text-white "><i class="icon-close"></i> Excluir</a>
+        <a href="#" class="btn btn-danger  text-white"  data-toggle="modal" data-target="#del_equipe{{ equipe.id }}"><i class="icon-close"></i> Excluir Equipe</a>
       </div>
     </div>
   </div>
@@ -63,18 +63,115 @@
                 </select>
               </div>
               <input id="id_equipe" name="equipe" type="hidden" value="{{ equipe.id }}" />
-          <button type="submit" style="color: azure;" class="btn btn-primary me-2">Cadastrar</button>
+          <button type="submit" class="btn btn-success text-white "><i class="icon-plus"></i>Adicionar</button>
           
         </form>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-warning  text-white " data-dismiss="modal"><i class="icon-close"></i> Fechar</button>
-          <button type="button" class="btn btn-success text-white "><i class="icon-plus"></i>Adicionar</button>
+          <button type="button" class="btn btn-secondary  text-white " data-dismiss="modal"><i class="icon-close"></i> Fechar</button>
+   
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="del_equipe{{ equipe.id }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Remover a Equipe {{ equipe.nome }}</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="{% url 'delEquipe' %}" method="post" enctype="multipart/form-data" class="forms-sample">{% csrf_token %}
+            {% csrf_token %}
+            <div class="form-group">
+              <h1 style="color: brown;">Deseja excluir a equipe?</h1>
+
+              </div>
+              <input id="id_equipe" name="equipe" type="hidden" value="{{ equipe.id }}" />
+          <button type="submit"  class="btn btn-warning text-white "><i class="icon-trash"></i>Remover</button>
+          
+        </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary  text-white " data-dismiss="modal"><i class="icon-close"></i> Fechar</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="del_pessoa{{ equipe.id }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Remover Pessoa a Equipe {{ equipe.nome }}</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="{% url 'delPessoa' %}" method="post" enctype="multipart/form-data" class="forms-sample">{% csrf_token %}
+            {% csrf_token %}
+            <div class="form-group">
+              <label for="id_pessoa">Pessoa</label>
+                <select class="form-control" id="id_pessoa" name="pessoa">
+                  {% for perfilS in perfils %}
+                  {% for select in equipe.pessoa.all %}
+                  {% if select.id == perfilS.user.id %}
+                  <option value='{{ select.id }}'> {{ select.first_name }} </option>
+                  {% endif %}
+                  {% endfor %}
+                  {% endfor %}
+                </select>
+              </div>
+              <input id="id_equipe" name="equipe" type="hidden" value="{{ equipe.id }}" />
+          <button type="submit"  class="btn btn-warning text-white "><i class="icon-trash"></i>Remover</button>
+          
+        </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary  text-white " data-dismiss="modal"><i class="icon-close"></i> Fechar</button>
+
         </div>
       </div>
     </div>
   </div>
   {% endfor %}
 
+<!-- Modal para equipes -->
+  <div class="modal fade" id="add_equipe" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Adicionar Equipe </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="{% url 'addEquipe' %}" method="post" enctype="multipart/form-data" class="forms-sample">{% csrf_token %}
+            {% csrf_token %}
+            <div class="form-group">
+              <label for="id_equipe">Equipe</label>
+              <input type="text" class="form-control" name="equipe" id="id_equipe" placeholder="Equipe nome">
+            </div>
+  
+          <button type="submit" class="btn btn-success text-white "><i class="icon-plus"></i>Adicionar</button>
+          
+        </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary  text-white " data-dismiss="modal"><i class="icon-close"></i> Fechar</button>
+   
+        </div>
+      </div>
+    </div>
+  </div>
 
 {% endblock %}

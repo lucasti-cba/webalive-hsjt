@@ -1,0 +1,56 @@
+[2021-10-15 11:57:44.793] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-10-15 11:57:44.793] [remoteagent] [info] Extension host agent started.
+[2021-10-15 11:57:45.173] [remoteagent] [info] [127.0.0.1][4379045a][ManagementConnection] New connection established.
+[2021-10-15 11:57:45.175] [remoteagent] [info] [127.0.0.1][565ca51b][ExtensionHostConnection] New connection established.
+[2021-10-15 11:57:45.183] [remoteagent] [info] [127.0.0.1][565ca51b][ExtensionHostConnection] <1377> Launched Extension Host Process.
+[2021-10-15 11:57:45.644] [remoteagent] [info] Deleted from disk ms-toolsai.jupyter /home/webalive/.vscode-server/extensions/ms-toolsai.jupyter-2021.8.2041215044
+[2021-10-15 11:57:46.049] [remoteagent] [info] Deleted from disk ms-python.python /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1317843341
+[2021-10-15 11:57:49.012] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-10-15 11:57:53.404] [remoteagent] [info] Installing extension: ms-python.vscode-pylance
+[2021-10-15 11:57:53.438] [remoteagent] [info] Installing extension: ms-toolsai.jupyter
+[2021-10-15 11:57:57.115] [remoteagent] [info] Downloaded extension: ms-toolsai.jupyter /home/webalive/.vscode-server/data/CachedExtensionVSIXs/ms-toolsai.jupyter-2021.9.1101343141
+[2021-10-15 11:57:57.671] [remoteagent] [info] Downloaded extension: ms-python.vscode-pylance /home/webalive/.vscode-server/data/CachedExtensionVSIXs/ms-python.vscode-pylance-2021.10.1
+[2021-10-15 11:57:58.408] [remoteagent] [info] Extracted extension to /home/webalive/.vscode-server/extensions/.a68856d8-77f1-466c-beb3-81d51927a19c: ms-toolsai.jupyter
+[2021-10-15 11:57:58.445] [remoteagent] [info] Renamed to /home/webalive/.vscode-server/extensions/ms-toolsai.jupyter-2021.9.1101343141
+[2021-10-15 11:57:58.450] [remoteagent] [info] Extracting completed. ms-toolsai.jupyter
+[2021-10-15 11:57:58.470] [remoteagent] [info] Extension installed successfully: ms-toolsai.jupyter
+[2021-10-15 11:58:04.006] [remoteagent] [info] Extracted extension to /home/webalive/.vscode-server/extensions/.8f51d85a-bc3b-4bcf-b2c3-1716596b5389: ms-python.vscode-pylance
+[2021-10-15 11:58:04.040] [remoteagent] [info] Renamed to /home/webalive/.vscode-server/extensions/ms-python.vscode-pylance-2021.10.1
+[2021-10-15 11:58:04.042] [remoteagent] [info] Extracting completed. ms-python.vscode-pylance
+[2021-10-15 11:58:04.060] [remoteagent] [info] Extension installed successfully: ms-python.vscode-pylance
+[2021-10-15 12:02:32.801] [remoteagent] [info] [127.0.0.1][4379045a][ManagementConnection] The client has reconnected.
+[2021-10-15 12:02:32.913] [remoteagent] [info] [127.0.0.1][565ca51b][ExtensionHostConnection] The client has reconnected.
+[2021-10-15 12:05:15.451] [remoteagent] [info] [127.0.0.1][daca6404][ManagementConnection] New connection established.
+[2021-10-15 12:05:15.834] [remoteagent] [info] [127.0.0.1][1e27dfb5][ExtensionHostConnection] New connection established.
+[2021-10-15 12:05:15.860] [remoteagent] [info] [127.0.0.1][1e27dfb5][ExtensionHostConnection] <2057> Launched Extension Host Process.
+[2021-10-15 12:05:18.883] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-10-15 12:06:31.732] [remoteagent] [info] [127.0.0.1][daca6404][ManagementConnection] The client has reconnected.
+[2021-10-15 12:06:58.747] [remoteagent] [info] [127.0.0.1][daca6404][ManagementConnection] The client has reconnected.
+[2021-10-15 12:06:59.730] [remoteagent] [info] [127.0.0.1][1e27dfb5][ExtensionHostConnection] The client has reconnected.
+[2021-10-15 12:20:15.080] [remoteagent] [info] [127.0.0.1][4379045a][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-10-15 14:40:35.377] [remoteagent] [info] [127.0.0.1][daca6404][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-10-15 15:20:24.691] [remoteagent] [info] [127.0.0.1][4379045a][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2021-10-15 15:24:53.886] [remoteagent] [info] [127.0.0.1][565ca51b][ExtensionHostConnection] <1377> Extension Host Process exited with code: 0, signal: null.
+[2021-10-15 17:09:04.815] [remoteagent] [info] [127.0.0.1][daca6404][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2021-10-15 17:09:04.816] [remoteagent] [info] [127.0.0.1][466ffc4d][ManagementConnection] New connection established.
+[2021-10-15 17:09:04.835] [remoteagent] [info] [127.0.0.1][d96257be][ExtensionHostConnection] New connection established.
+[2021-10-15 17:09:04.851] [remoteagent] [info] [127.0.0.1][d96257be][ExtensionHostConnection] <7792> Launched Extension Host Process.
+[2021-10-15 17:10:00.983] [remoteagent] [info] [127.0.0.1][466ffc4d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-10-15 17:10:02.023] [remoteagent] [info] [127.0.0.1][d96257be][ExtensionHostConnection] <7792> Extension Host Process exited with code: 0, signal: null.
+[2021-10-15 17:10:08.098] [remoteagent] [info] [127.0.0.1][f7dbab15][ManagementConnection] New connection established.
+[2021-10-15 17:10:08.199] [remoteagent] [info] [127.0.0.1][b5dbf714][ExtensionHostConnection] New connection established.
+[2021-10-15 17:10:08.207] [remoteagent] [info] [127.0.0.1][b5dbf714][ExtensionHostConnection] <7987> Launched Extension Host Process.
+[2021-10-15 17:10:11.721] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-10-15 17:14:04.991] [remoteagent] [info] [127.0.0.1][daca6404][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2021-10-15 17:14:06.056] [remoteagent] [info] [127.0.0.1][1e27dfb5][ExtensionHostConnection] <2057> Extension Host Process exited with code: 0, signal: null.
+[2021-10-15 17:55:47.469] [remoteagent] [info] [127.0.0.1][b5dbf714][ExtensionHostConnection] The client has reconnected.
+[2021-10-15 17:55:50.801] [remoteagent] [info] [127.0.0.1][f7dbab15][ManagementConnection] The client has reconnected.

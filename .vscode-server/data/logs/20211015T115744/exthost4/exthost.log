@@ -1,0 +1,205 @@
+[2021-10-15 17:10:10.416] [exthost] [info] extension host started
+[2021-10-15 17:10:10.444] [exthost] [info] Lock '/home/webalive/.vscode-server/data/User/workspaceStorage/665c1a26ae1857a3f9edab11f0c451ee/vscode.lock': Lock acquired.
+[2021-10-15 17:10:10.681] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.vscode-pylance
+[2021-10-15 17:10:10.681] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension
+[2021-10-15 17:10:11.136] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2021-10-15 17:10:11.137] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/extensions/ms-toolsai.jupyter-2021.9.1101343141/out/client/extension
+[2021-10-15 17:10:11.570] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-10-15 17:10:11.570] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/debug-auto-launch/dist/extension
+[2021-10-15 17:10:11.576] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-10-15 17:10:11.577] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/git/dist/main
+[2021-10-15 17:10:12.376] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-10-15 17:10:12.376] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/github/dist/extension.js
+[2021-10-15 17:10:12.701] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2021-10-15 17:10:12.701] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.3/out/extension_renderer/index.js
+[2021-10-15 17:10:12.850] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-15 17:10:12.850] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/emmet/dist/node/emmetNodeMain
+[2021-10-15 17:10:12.882] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-15 17:10:12.882] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/merge-conflict/dist/mergeConflictMain
+[2021-10-15 17:10:12.888] [exthost] [info] eager extensions activated
+[2021-10-15 17:10:13.140] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6254
+[2021-10-15 17:10:15.809] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2021-10-15 17:10:15.810] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/extensions/ms-python.vscode-pylance-2021.10.1/dist/extension.bundle.js
+[2021-10-15 17:10:16.200] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onCommand:extension.js-debug.clearAutoAttachVariables'
+[2021-10-15 17:10:16.200] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/ms-vscode.js-debug/src/extension.js
+[2021-10-15 17:10:16.793] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6254
+[2021-10-15 17:12:40.776] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2021-10-15 17:12:40.777] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/html-language-features/client/dist/node/htmlClientMain
+[2021-10-15 17:12:45.753] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 17:12:45.753] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:87:30472)
+	at new r (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:87:30421)
+	at new r (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:87:17220)
+	at q (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:52:326104)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:52:331442)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:118287
+	at async l.provideDocumentSymbols (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:166891)
+[2021-10-15 17:13:22.183] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 17:13:26.752] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 17:13:26.752] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:115761
+	at async t.provideDefinition (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:169202)
+[2021-10-15 17:13:26.798] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 17:13:26.798] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:113719
+	at async s.provideHover (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:170095)
+[2021-10-15 17:13:26.806] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 17:13:26.806] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:121238
+	at async A.provideCodeActions (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:172403)
+[2021-10-15 17:13:26.809] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 17:13:26.809] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:113719
+	at async s.provideHover (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:170095)
+[2021-10-15 17:13:28.341] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 17:13:33.006] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 17:13:33.006] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:121238
+	at async A.provideCodeActions (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:172403)
+[2021-10-15 17:13:33.010] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 17:13:33.010] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:113719
+	at async s.provideHover (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:170095)
+[2021-10-15 17:13:33.021] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 17:13:33.021] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:113719
+	at async s.provideHover (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:170095)
+[2021-10-15 17:13:35.347] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 17:13:35.347] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:113719
+	at async s.provideHover (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:170095)
+[2021-10-15 17:15:45.807] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-10-15 17:15:45.807] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/configuration-editing/dist/configurationEditingMain
+[2021-10-15 17:15:45.825] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-10-15 17:15:45.825] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-10-15 17:15:45.919] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-10-15 17:15:45.919] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/typescript-language-features/dist/extension
+[2021-10-15 17:16:27.421] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 17:16:33.695] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 17:19:32.833] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 17:19:38.862] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 17:20:53.072] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 17:20:53.072] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:113719
+	at async s.provideHover (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:170095)
+[2021-10-15 17:36:19.298] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 17:36:25.363] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 17:36:29.767] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 17:36:29.767] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:113719
+	at async s.provideHover (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:170095)
+[2021-10-15 17:36:57.031] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 17:36:57.031] [exthost] [error] TypeError: Cannot read property 'items' of undefined
+	at completionLengthMeasure (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:52:368561)
+	at p (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:52:371225)
+	at async U.provideCompletionItems (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:180703)
+[2021-10-15 17:36:59.726] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 17:36:59.726] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:121238
+	at async A.provideCodeActions (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:172403)
+[2021-10-15 17:55:33.284] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 17:55:47.329] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 17:55:47.329] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:113719
+	at runMicrotasks (<anonymous>)
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+	at async s.provideHover (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:170095)
+[2021-10-15 17:55:49.230] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 17:57:12.292] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 17:57:12.293] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:121238
+	at async A.provideCodeActions (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:172403)
+[2021-10-15 17:58:38.511] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 17:58:44.590] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 18:01:43.734] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 18:01:49.909] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 18:04:49.034] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 18:04:55.186] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 18:24:48.540] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 18:24:53.139] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 18:24:53.139] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:113719
+	at runMicrotasks (<anonymous>)
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+	at async s.provideHover (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:170095)
+[2021-10-15 18:24:54.695] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 18:24:59.109] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 18:24:59.109] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:121238
+	at async A.provideCodeActions (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:172403)
+[2021-10-15 18:28:39.944] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 18:28:46.065] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 18:40:27.210] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 18:40:33.340] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 18:43:32.391] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 18:43:38.500] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 18:46:37.576] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 18:46:43.703] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 18:49:42.787] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 18:49:48.933] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 19:11:15.800] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 19:11:21.983] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 19:14:21.033] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 19:14:27.121] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6255
+[2021-10-15 19:15:13.411] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 19:15:13.411] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:112927
+	at async U.resolveCompletionItem (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:181423)
+[2021-10-15 19:17:50.928] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6256
+[2021-10-15 19:17:57.092] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6256
+[2021-10-15 19:20:56.118] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6256
+[2021-10-15 19:21:06.206] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6256
+[2021-10-15 19:24:01.317] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6256
+[2021-10-15 19:24:07.412] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6256
+[2021-10-15 19:24:11.823] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 19:24:11.823] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:113719
+	at async s.provideHover (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:170095)
+[2021-10-15 19:24:11.888] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 19:24:11.888] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:121238
+	at runMicrotasks (<anonymous>)
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+	at async A.provideCodeActions (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:172403)
+[2021-10-15 19:44:03.519] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6256
+[2021-10-15 19:44:12.065] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6256

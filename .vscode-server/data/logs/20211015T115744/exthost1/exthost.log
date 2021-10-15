@@ -1,0 +1,159 @@
+[2021-10-15 11:57:49.188] [exthost] [info] extension host started
+[2021-10-15 11:57:49.207] [exthost] [info] Lock '/home/webalive/.vscode-server/data/User/workspaceStorage/665c1a26ae1857a3f9edab11f0c451ee/vscode.lock': Lock acquired.
+[2021-10-15 11:57:49.537] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.vscode-pylance
+[2021-10-15 11:57:49.537] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension
+[2021-10-15 11:57:49.979] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2021-10-15 11:57:49.979] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/extensions/ms-toolsai.jupyter-2021.9.1001312534/out/client/extension
+[2021-10-15 11:57:50.468] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-10-15 11:57:50.468] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/debug-auto-launch/dist/extension
+[2021-10-15 11:57:50.493] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-10-15 11:57:50.493] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/git/dist/main
+[2021-10-15 11:57:53.124] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-10-15 11:57:53.124] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/github/dist/extension.js
+[2021-10-15 11:57:53.556] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2021-10-15 11:57:53.556] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.3/out/extension_renderer/index.js
+[2021-10-15 11:57:53.760] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-15 11:57:53.760] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/emmet/dist/node/emmetNodeMain
+[2021-10-15 11:57:53.805] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-15 11:57:53.806] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/merge-conflict/dist/mergeConflictMain
+[2021-10-15 11:57:53.812] [exthost] [info] eager extensions activated
+[2021-10-15 11:57:54.104] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2562
+[2021-10-15 11:57:55.270] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onCommand:extension.js-debug.clearAutoAttachVariables'
+[2021-10-15 11:57:55.271] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/ms-vscode.js-debug/src/extension.js
+[2021-10-15 11:57:55.715] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2021-10-15 11:57:55.716] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/extensions/ms-python.vscode-pylance-2021.10.0/dist/extension.bundle.js
+[2021-10-15 11:58:34.232] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6233
+[2021-10-15 11:58:39.431] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6233
+[2021-10-15 11:59:30.259] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 11:59:30.260] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:113719
+	at async s.provideHover (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:170095)
+[2021-10-15 12:01:36.176] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 12:01:36.176] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:115761
+	at async t.provideDefinition (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:169202)
+[2021-10-15 12:01:38.400] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6235
+[2021-10-15 12:01:42.928] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 12:01:42.928] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:121238
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+	at async A.provideCodeActions (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:172403)
+[2021-10-15 12:01:42.928] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 12:01:42.928] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:121238
+	at async A.provideCodeActions (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:172403)
+[2021-10-15 12:01:44.494] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6235
+[2021-10-15 12:01:48.890] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 12:01:48.890] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:113719
+	at async s.provideHover (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:170095)
+[2021-10-15 12:01:48.895] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 12:01:48.896] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:113719
+	at async s.provideHover (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:170095)
+[2021-10-15 12:01:48.998] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 12:01:48.998] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:113719
+	at async s.provideHover (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:170095)
+[2021-10-15 12:01:48.999] [exthost] [error] [ms-python.python] provider FAILED
+[2021-10-15 12:01:48.999] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:153377)
+	at /home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension.js:9:121238
+	at async A.provideCodeActions (/home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/out/vs/server/remoteExtensionHostProcess.js:94:172403)
+[2021-10-15 12:02:33.090] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2021-10-15 12:02:33.090] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/html-language-features/client/dist/node/htmlClientMain
+[2021-10-15 12:04:43.567] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6236
+[2021-10-15 12:05:26.027] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6242
+[2021-10-15 12:07:48.725] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 12:08:34.747] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 12:10:53.941] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6244
+[2021-10-15 12:11:40.023] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6244
+[2021-10-15 12:13:59.139] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6244
+[2021-10-15 12:16:24.334] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6244
+[2021-10-15 12:17:04.240] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6244
+[2021-10-15 12:20:09.474] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6244
+[2021-10-15 12:22:24.461] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 12:23:14.515] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 12:26:19.683] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 12:29:24.792] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 12:30:04.014] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 12:32:29.919] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 12:35:30.320] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 12:35:35.522] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 12:38:40.558] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 12:39:08.844] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 12:41:45.627] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 12:44:50.767] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 12:47:55.966] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 12:51:01.227] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 12:54:06.480] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 12:57:11.646] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 13:00:16.833] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 13:03:22.029] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 13:06:27.227] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 13:09:32.391] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 13:12:37.564] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 13:15:42.758] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 13:18:47.970] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 13:21:53.171] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 13:24:58.380] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 13:28:03.736] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 13:31:08.914] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 13:33:55.420] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 13:34:14.084] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 13:37:19.225] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 13:40:24.442] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 13:43:28.528] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 13:43:34.242] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 13:46:39.450] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 13:48:59.425] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 13:49:44.671] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 13:52:49.859] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 13:55:55.043] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 13:59:00.270] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 14:02:05.485] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 14:05:10.686] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 14:08:15.914] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 14:11:21.192] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 14:14:26.414] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 14:17:31.670] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 14:20:36.880] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 14:23:42.093] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 14:26:47.334] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 14:29:52.582] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 14:32:57.808] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 14:36:04.183] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 14:39:09.436] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 14:42:14.700] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 14:45:19.938] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 14:48:25.185] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 14:51:30.413] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 14:54:35.693] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 14:57:40.920] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 15:00:46.131] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 15:03:51.398] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 15:06:56.604] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 15:10:02.179] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 15:13:07.447] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 15:16:12.699] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 15:19:17.955] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 15:22:23.208] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6243
+[2021-10-15 15:24:52.768] [exthost] [info] extension host terminating: renderer disconnected for too long (1)
+[2021-10-15 15:24:52.781] [exthost] [info] Lock '/home/webalive/.vscode-server/data/User/workspaceStorage/665c1a26ae1857a3f9edab11f0c451ee/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-10-15 15:24:53.835] [exthost] [info] exiting with code 0

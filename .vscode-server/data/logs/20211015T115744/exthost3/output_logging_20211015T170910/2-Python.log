@@ -1,0 +1,25 @@
+User belongs to experiment group 'pythonaacf'
+User belongs to experiment group 'pythonJediLSP'
+User belongs to experiment group 'pythonDiscoveryModuleWithoutWatcher'
+User belongs to experiment group 'pythonTensorboardExperiment'
+User belongs to experiment group 'pythonSurveyNotification'
+User belongs to experiment group 'PythonPyTorchProfiler'
+User belongs to experiment group 'pythonDeprecatePythonPath'
+User belongs to experiment group 'pythonSortEnvs'
+User belongs to experiment group 'pythonRunFailedTestsButtonDisplayed'
+User belongs to experiment group 'pythonRefreshTestsButtonDisplayed'
+User belongs to experiment group 'pythonRememberDebugConfig'
+> conda info --json
+> /bin/python3 ~/.vscode-server/extensions/ms-python.python-2021.10.1336267007/pythonFiles/interpreterInfo.py
+> /usr/bin/python3 ~/.vscode-server/extensions/ms-python.python-2021.10.1336267007/pythonFiles/interpreterInfo.py
+> C:\Users\lucas\AppData\Local\Programs\Python\Python310\python.exe -c "import sys;print(sys.executable)"
+> C:\Users\lucas\AppData\Local\Programs\Python\Python310\python.exe -c "import sys;print(sys.executable)"
+> C:\Users\lucas\AppData\Local\Programs\Python\Python310\python.exe -c "import sys;print(sys.executable)"
+Starting Pylance language server.
+> C:\Users\lucas\AppData\Local\Programs\Python\Python310\python.exe -c "import sys;print(sys.executable)"
+Error 2021-10-15 17:09:11: Diagnostic Code: InvalidPythonInterpreterDiagnostic, Message: No Python interpreter is selected. You need to select a Python interpreter to enable features such as IntelliSense, linting, and debugging.
+Diagnostic Code: InvalidPythonInterpreterDiagnostic, Message: No Python interpreter is selected. You need to select a Python interpreter to enable features such as IntelliSense, linting, and debugging.
+> conda --version
+Python interpreter path: /bin/python3
+Error 2021-10-15 17:10:01: Error while running worker[Worker 2]. undefined
+Error 2021-10-15 17:10:01: Error while running worker[Worker 1]. undefined

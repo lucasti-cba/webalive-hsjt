@@ -1,0 +1,502 @@
+Validating found git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/webalive
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git cat-file -s 720c058d20331550febfd19603b6853a1a463c5b
+> git show --textconv :myproject/chamado/forms.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/forms.py
+> git cat-file -s acd8f5f64521e5bc1651e253c790246b89a2b4d4
+> git show --textconv :myproject/chamado/models.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/models.py
+> git cat-file -s e1f2a87111b5c4402d74d8e11104b6a64ba470b5
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git cat-file -s 720c058d20331550febfd19603b6853a1a463c5b
+> git show --textconv :myproject/chamado/forms.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/forms.py
+> git cat-file -s acd8f5f64521e5bc1651e253c790246b89a2b4d4
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git cat-file -s 720c058d20331550febfd19603b6853a1a463c5b
+> git show --textconv :myproject/chamado/urls.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/urls.py
+> git cat-file -s ba0f53deb28a4c78ee3c34d084386c010146839c
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git cat-file -s c38f6bae40b5a431f82851b528df7a363003343b
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git cat-file -s 720c058d20331550febfd19603b6853a1a463c5b
+> git show --textconv :myproject/chamado/forms.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/forms.py
+> git cat-file -s acd8f5f64521e5bc1651e253c790246b89a2b4d4
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git cat-file -s 720c058d20331550febfd19603b6853a1a463c5b
+> git show --textconv :myproject/chamado/urls.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/urls.py
+> git cat-file -s ba0f53deb28a4c78ee3c34d084386c010146839c
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git cat-file -s c38f6bae40b5a431f82851b528df7a363003343b
+> git show --textconv :myproject/chamado/models.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/models.py
+> git cat-file -s e1f2a87111b5c4402d74d8e11104b6a64ba470b5
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git cat-file -s 720c058d20331550febfd19603b6853a1a463c5b
+> git show --textconv :myproject/chamado/forms.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/forms.py
+> git cat-file -s acd8f5f64521e5bc1651e253c790246b89a2b4d4
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git cat-file -s 720c058d20331550febfd19603b6853a1a463c5b
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git cat-file -s c38f6bae40b5a431f82851b528df7a363003343b
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git cat-file -s c38f6bae40b5a431f82851b528df7a363003343b
+> git show --textconv :myproject/template/equipe.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :myproject/chamado/urls.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/urls.py
+> git cat-file -s ba0f53deb28a4c78ee3c34d084386c010146839c
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git cat-file -s c38f6bae40b5a431f82851b528df7a363003343b
+> git show --textconv :myproject/template/cadastrarEquipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/cadastrarEquipe.html
+> git cat-file -s 091099cb46dfde05af3945ad9afb569fc6a77848
+> git show --textconv :myproject/template/cadastro_visitante.html
+> git ls-files --stage -- /home/webalive/myproject/template/cadastro_visitante.html
+> git cat-file -s 091099cb46dfde05af3945ad9afb569fc6a77848
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git cat-file -s c38f6bae40b5a431f82851b528df7a363003343b
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git cat-file -s c38f6bae40b5a431f82851b528df7a363003343b
+> git show --textconv :myproject/template/equipe.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git cat-file -s 720c058d20331550febfd19603b6853a1a463c5b
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s f5f9a95c4ce597e41a30db495ea81db9640f38fc
+> git check-ignore -v -z --stdin
+> git show --textconv :myproject/chamado/models.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/models.py
+> git cat-file -s e1f2a87111b5c4402d74d8e11104b6a64ba470b5
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git cat-file -s 720c058d20331550febfd19603b6853a1a463c5b
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git cat-file -s 720c058d20331550febfd19603b6853a1a463c5b
+> git show --textconv :myproject/chamado/views.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :myproject/auth/__init__.py
+> git ls-files --stage -- /home/webalive/myproject/auth/__init__.py
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git cat-file -s 720c058d20331550febfd19603b6853a1a463c5b
+> git show --textconv :myproject/chamado/urls.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/urls.py
+> git cat-file -s ba0f53deb28a4c78ee3c34d084386c010146839c
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git cat-file -s c38f6bae40b5a431f82851b528df7a363003343b
+> git show --textconv :myproject/template/cadastro_visitante.html
+> git ls-files --stage -- /home/webalive/myproject/template/cadastro_visitante.html
+> git cat-file -s 091099cb46dfde05af3945ad9afb569fc6a77848
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git cat-file -s 720c058d20331550febfd19603b6853a1a463c5b
+> git show --textconv :myproject/chamado/urls.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/urls.py
+> git cat-file -s ba0f53deb28a4c78ee3c34d084386c010146839c
+> git show --textconv :myproject/template/cadastro_visitante.html
+> git ls-files --stage -- /home/webalive/myproject/template/cadastro_visitante.html
+> git cat-file -s 091099cb46dfde05af3945ad9afb569fc6a77848
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git cat-file -s c38f6bae40b5a431f82851b528df7a363003343b
+> git show --textconv :myproject/chamado/forms.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/forms.py
+> git cat-file -s acd8f5f64521e5bc1651e253c790246b89a2b4d4
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git cat-file -s 720c058d20331550febfd19603b6853a1a463c5b
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :myproject/chamado/urls.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/urls.py
+> git cat-file -s ba0f53deb28a4c78ee3c34d084386c010146839c
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git cat-file -s 720c058d20331550febfd19603b6853a1a463c5b
+> git show --textconv :myproject/chamado/urls.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/urls.py
+> git cat-file -s ba0f53deb28a4c78ee3c34d084386c010146839c
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git cat-file -s 720c058d20331550febfd19603b6853a1a463c5b
+> git show --textconv :myproject/chamado/forms.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/forms.py
+> git cat-file -s acd8f5f64521e5bc1651e253c790246b89a2b4d4
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git cat-file -s 720c058d20331550febfd19603b6853a1a463c5b
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git cat-file -s 720c058d20331550febfd19603b6853a1a463c5b
+> git show --textconv :myproject/chamado/views.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git cat-file -s 720c058d20331550febfd19603b6853a1a463c5b
+> git show --textconv :myproject/chamado/views.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git cat-file -s 720c058d20331550febfd19603b6853a1a463c5b
+> git show --textconv :myproject/chamado/views.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git cat-file -s 720c058d20331550febfd19603b6853a1a463c5b
+> git show --textconv :myproject/chamado/views.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :myproject/chamado/forms.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/forms.py
+> git cat-file -s acd8f5f64521e5bc1651e253c790246b89a2b4d4
+> git fetch
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git cat-file -s c38f6bae40b5a431f82851b528df7a363003343b
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git cat-file -s c38f6bae40b5a431f82851b528df7a363003343b
+> git show --textconv :myproject/template/equipe.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s f5f9a95c4ce597e41a30db495ea81db9640f38fc
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s f5f9a95c4ce597e41a30db495ea81db9640f38fc
+> git show --textconv :myproject/auth/views.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s f5f9a95c4ce597e41a30db495ea81db9640f38fc
+> git show --textconv :myproject/auth/views.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s f5f9a95c4ce597e41a30db495ea81db9640f38fc
+> git show --textconv :myproject/auth/views.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s f5f9a95c4ce597e41a30db495ea81db9640f38fc
+> git show --textconv :myproject/auth/views.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s f5f9a95c4ce597e41a30db495ea81db9640f38fc
+> git show --textconv :myproject/auth/views.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :myproject/chamado/models.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/models.py
+> git cat-file -s e1f2a87111b5c4402d74d8e11104b6a64ba470b5
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/webalive/myproject/chamado/models.py
+> git cat-file -s e1f2a87111b5c4402d74d8e11104b6a64ba470b5
+> git show --textconv :myproject/chamado/models.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git cat-file -s c38f6bae40b5a431f82851b528df7a363003343b
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :myproject/auth/views.py
+> git ls-files --stage -- /home/webalive/myproject/auth/views.py
+> git cat-file -s f5f9a95c4ce597e41a30db495ea81db9640f38fc
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git cat-file -s 720c058d20331550febfd19603b6853a1a463c5b
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :myproject/chamado/urls.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/urls.py
+> git cat-file -s ba0f53deb28a4c78ee3c34d084386c010146839c
+> git show --textconv :myproject/template/equipe.html
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git cat-file -s c38f6bae40b5a431f82851b528df7a363003343b
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/webalive/myproject/template/equipe.html
+> git cat-file -s c38f6bae40b5a431f82851b528df7a363003343b
+> git show --textconv :myproject/template/equipe.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git cat-file -s 720c058d20331550febfd19603b6853a1a463c5b
+> git show --textconv :myproject/chamado/forms.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/forms.py
+> git cat-file -s acd8f5f64521e5bc1651e253c790246b89a2b4d4
+> git show --textconv :myproject/chamado/models.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/models.py
+> git cat-file -s e1f2a87111b5c4402d74d8e11104b6a64ba470b5
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git show --textconv :myproject/chamado/views.py
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git config --get commit.template
+> git cat-file -s 720c058d20331550febfd19603b6853a1a463c5b
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- /home/webalive/myproject/chamado/views.py
+> git cat-file -s 720c058d20331550febfd19603b6853a1a463c5b
+> git show --textconv :myproject/chamado/views.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git add -A -- .

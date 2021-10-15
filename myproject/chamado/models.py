@@ -20,10 +20,14 @@ class Equipe(models.Model):
 class Tipo(models.Model):
     nome =  models.TextField( blank=False, null=False)
     equipe = models.ForeignKey(Equipe, on_delete=models.CASCADE, null = True )
+    def __str__(self):
+        return self.nome
 
 class Categoria(models.Model):
     nome =  models.TextField( blank=False, null=False)
     tipo = models.ForeignKey(Tipo, on_delete=models.CASCADE, null = True )
+    def __str__(self):
+        return self.nome
 
 class Procedimento(models.Model):
     data  = models.DateTimeField()
@@ -35,14 +39,14 @@ class Procedimento(models.Model):
 class Ticket(models.Model):
     titulo =  models.TextField( blank=False, null=False)
     status =  models.TextField( blank=False, null=False)
-    tipo = models.OneToOneField(Tipo, on_delete=models.CASCADE, related_name='tipo')
-    categoria = models.OneToOneField(Categoria, on_delete=models.CASCADE, related_name='categoria')
+    tipo = models.ManyToManyField(Tipo)
+    categoria = models.ManyToManyField(Categoria)
     data_abertura   = models.DateTimeField()
     data_finalizado   = models.DateTimeField()
     descricao =  models.TextField( blank=False, null=False)
     solicitante  = models.OneToOneField(User, on_delete=models.CASCADE, related_name='solicitante')
-    atendentes = models.ForeignKey(User, on_delete=models.CASCADE , related_name='atendente')
-    finalizado  = models.OneToOneField(User, on_delete=models.CASCADE, related_name='finalizador')
+    atendentes = models.ManyToManyField(User)
+    finalizado  = models.ForeignKey(User, on_delete=models.CASCADE, related_name='finalizador')
     procedimentos  = models.ManyToManyField(Procedimento)
     foto = models.ManyToManyField(Imagem)
 

@@ -1,0 +1,26 @@
+[2021-10-15 17:09:06.136] [exthost] [info] extension host started
+[2021-10-15 17:09:06.356] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-10-15 17:09:06.357] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/debug-auto-launch/dist/extension
+[2021-10-15 17:09:06.365] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-10-15 17:09:06.365] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/git/dist/main
+[2021-10-15 17:09:06.681] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-10-15 17:09:06.682] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/github/dist/extension.js
+[2021-10-15 17:09:06.739] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-15 17:09:06.739] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/emmet/dist/node/emmetNodeMain
+[2021-10-15 17:09:06.765] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-15 17:09:06.765] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/merge-conflict/dist/mergeConflictMain
+[2021-10-15 17:09:06.771] [exthost] [info] eager extensions activated
+[2021-10-15 17:09:06.773] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onCommand:extension.js-debug.clearAutoAttachVariables'
+[2021-10-15 17:09:06.773] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/ms-vscode.js-debug/src/extension.js
+[2021-10-15 17:09:09.794] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onWalkthrough:pythonWelcome'
+[2021-10-15 17:09:09.794] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/extensions/ms-python.python-2021.10.1336267007/out/client/extension
+[2021-10-15 17:09:10.633] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: ms-python.python
+[2021-10-15 17:09:10.633] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/extensions/ms-python.vscode-pylance-2021.10.1/dist/extension.bundle.js
+[2021-10-15 17:09:27.818] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-10-15 17:09:27.819] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/configuration-editing/dist/configurationEditingMain
+[2021-10-15 17:09:27.839] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-10-15 17:09:27.839] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-10-15 17:09:27.935] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-10-15 17:09:27.935] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/webalive/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/extensions/typescript-language-features/dist/extension
+[2021-10-15 17:10:00.979] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-10-15 17:10:02.011] [exthost] [info] exiting with code 0
